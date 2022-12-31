@@ -27,4 +27,4 @@ If you want to contribute to the development of this mod, please feel free to do
 If you have any questions, or if you want to discuss the mod, you can do so in the discussion section of this repository.
 
 # License
-This software is licensed under the MIT license. 
+This software is licensed under the GNU General Public License v3.0. See the LICENCE file for details.
