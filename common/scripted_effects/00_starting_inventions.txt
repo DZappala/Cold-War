@@ -1,0 +1,33 @@
+﻿# Starting techs for the cutting edge Western powers - Britain, America, France, Belgium etc
+effect_starting_technology_tier_1_tech = {
+	add_era_researched = era_5
+}
+
+# Starting techs for advanced European and American powers - Austria, Prussia, Sweden etc
+effect_starting_technology_tier_2_tech = {
+	add_era_researched = era_4
+}
+
+# Starting techs for backwards European and American powers - Spain, Sicily, Russia
+effect_starting_technology_tier_3_tech = {
+	add_era_researched = era_4
+}
+
+# Starting techs for most unrecognized nations and very backwards European powers (Ottomans, etc)
+effect_starting_technology_tier_4_tech = {
+	add_era_researched = era_4
+}
+
+# Very backwards centralized powers
+effect_starting_technology_tier_5_tech = {
+	add_era_researched = era_4
+}
+
+# Decentralized countries with organized armies, extremely backwards centralized powers
+effect_starting_technology_tier_6_tech = {
+	add_era_researched = era_4
+}
+
+# Decentralized countries with no technology
+effect_starting_technology_tier_7_tech = {
+}
