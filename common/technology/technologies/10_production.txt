@@ -1,12 +1,10 @@
 ﻿### ERA 1
-
 sericulture = {
 	# Unlocks Mulberry Groves PM on Rice Farms
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/sericulture.dds"
 	category = production
 	can_research = no
-	
 	modifier = {
 		building_silk_plantation_throughput_mult = 0.25
 	}
@@ -32,7 +30,6 @@ shaft_mining = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
 	category = production
-	
 	unlocking_technologies = {
 		enclosure
 		manufacturies
@@ -43,11 +40,9 @@ cotton_gin = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/cotton_gin.dds"
 	category = production
-
 	modifier = {
 		building_cotton_plantation_throughput_mult = 0.25
 	}
-	
 	unlocking_technologies = {
 		manufacturies
 	}
@@ -58,7 +53,6 @@ lathe = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/lathe.dds"
 	category = production
-	
 	unlocking_technologies = {
 		cotton_gin
 	}
@@ -71,7 +65,6 @@ distillation = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/distillation.dds"
 	category = production
-	
 	unlocking_technologies = {
 		manufacturies
 	}
@@ -82,7 +75,6 @@ steelworking = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/steelworking.dds"
 	category = production
-	
 	unlocking_technologies = {
 		shaft_mining
 	}
@@ -93,20 +85,17 @@ prospecting = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/prospecting_tech.dds"
 	category = production
-	
 	unlocking_technologies = {
 		shaft_mining
 	}
 }
 
 ### ERA 2
-
 crystal_glass = {
 	# Unlocks Leaded Glass PM in Glassworks
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/crystal_glass.dds"
 	category = production
-	
 	unlocking_technologies = {
 		lathe
 	}
@@ -119,7 +108,6 @@ intensive_agriculture = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
 	category = production
-	
 	unlocking_technologies = {
 		enclosure
 	}
@@ -131,7 +119,6 @@ fractional_distillation = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/fractional_distillation.dds"
 	category = production
-	
 	unlocking_technologies = {
 		distillation
 	}
@@ -142,7 +129,6 @@ canneries = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/canneries.dds"
 	category = production
-	
 	unlocking_technologies = {
 		lathe
 	}
@@ -154,7 +140,6 @@ watertube_boiler = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/watertube_boiler.dds"
 	category = production
-	
 	unlocking_technologies = {
 		atmospheric_engine
 	}
@@ -166,7 +151,6 @@ atmospheric_engine = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/atmospheric_engine.dds"
 	category = production
-	
 	unlocking_technologies = {
 		shaft_mining
 	}
@@ -183,7 +167,6 @@ railways = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/railways.dds"
 	category = production
-	
 	unlocking_technologies = {
 		mechanical_tools
 		atmospheric_engine
@@ -196,8 +179,7 @@ chemical_bleaching = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/chemical_bleaching.dds"
 	category = production
-
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		crystal_glass
 	}
 }
@@ -206,16 +188,13 @@ nitroglycerin = {
 	# Unlocks Nitroglycerin PM in Coal, Iron, Lead, Sulfur Mines
 	# Unlocks Ammonia-Soda Process PM in Chemical Industries
 	# Countries get a +25% chance of discovering new resources
-	
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/nitroglycerin.dds"
 	category = production
-	
 	modifier = {
 		country_resource_discovery_chance_mult = 0.25
 	}
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		intensive_agriculture
 		prospecting
 	}
@@ -227,8 +206,7 @@ bessemer_process = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/bessemer_process.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		steelworking
 	}
 }
@@ -238,7 +216,6 @@ baking_powder = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/baking_powder.dds"
 	category = production
-	
 	unlocking_technologies = {
 		fractional_distillation
 	}
@@ -250,11 +227,9 @@ mechanized_workshops = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/mechanized_workshops.dds"
 	category = production
-	
 	modifier = {
 		building_economy_of_scale_level_cap_add = 10
 	}
-	
 	unlocking_technologies = {
 		canneries
 		mechanical_tools
@@ -266,7 +241,6 @@ mechanical_tools = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/mechanical_tools.dds"
 	category = production
-	
 	unlocking_technologies = {
 		lathe
 		steelworking
@@ -274,15 +248,13 @@ mechanical_tools = {
 }
 
 ### ERA 3
-
 improved_fertilizer = {
 	# Unlocks Improved Fertilizer PM in Chemical Plants
 	# Unlocks Fertilization PM in Rye, Wheat, Rice, Maize, Millet Farms
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/improved_fertilizer.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		intensive_agriculture
 	}
 }
@@ -293,8 +265,7 @@ steam_donkey = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/steam_donkey.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		intensive_agriculture
 	}
 }
@@ -307,12 +278,10 @@ dynamite = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/dynamite.dds"
 	category = production
-	
 	modifier = {
 		country_resource_discovery_chance_mult = 0.25
 	}
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		nitroglycerin
 	}
 }
@@ -322,20 +291,18 @@ rubber_mastication = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/rubber.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		fractional_distillation
 		chemical_bleaching
 	}
-}	
+}
 
 rotary_valve_engine = {
 	# Unlocks Rotary Valve Engine PM in Furniture Manufacturies, Tooling Workshops, Paper Mills, Steel Mills, Motor Industry
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/rotary_valve_engine.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		watertube_boiler
 	}
 }
@@ -345,23 +312,20 @@ reinforced_concrete = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/reinforced_concrete.dds"
 	category = production
-	
 	modifier = {
 		building_construction_sector_throughput_mult = 0.15
 	}
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		bessemer_process
 	}
-}	
+}
 
 threshing_machine = {
 	# Unlocks Steam Threshers PM on Rye, Wheat, Rice, Maize, Millet Farms
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/threshing_machine.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		steam_donkey
 	}
 }
@@ -372,8 +336,7 @@ pumpjacks = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/pumpjacks.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		steam_donkey
 		dynamite
 	}
@@ -384,8 +347,7 @@ aniline = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/aniline.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		rubber_mastication
 	}
 }
@@ -395,8 +357,7 @@ open_hearth_process = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/open_hearth_process.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		bessemer_process
 	}
 }
@@ -406,19 +367,17 @@ vulcanization = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/vulcanization.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		rubber_mastication
 	}
-}	
+}
 
 vacuum_canning = {
 	# Unlocks Vacuum Canning PM in Food Industries
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/vacuum_canning.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		mechanized_workshops
 	}
 }
@@ -427,12 +386,10 @@ shift_work = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
 	category = production
-	
 	modifier = {
 		building_economy_of_scale_level_cap_add = 20
 	}
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		mechanized_workshops
 	}
 }
@@ -443,9 +400,8 @@ steel_railway_cars = {
 	# Increases Railway max level by 1
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/steel_railway_cars.dds"
-	category = production	
-	
-	unlocking_technologies = {	
+	category = production
+	unlocking_technologies = {
 		railways
 	}
 }
@@ -461,21 +417,18 @@ electrical_generation = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		rotary_valve_engine
 	}
 }
 
 ### ERA 4
-
 mechanized_farming = {
 	# Unlocks Tractors PM in Rye Farms, Wheat Farms, Millet Farms
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/mechanized_farming.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		threshing_machine
 	}
 }
@@ -486,8 +439,7 @@ art_silk = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/art_silk.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		aniline
 	}
 }
@@ -497,8 +449,7 @@ automatic_bottle_blowers = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/automatic_bottle_blowers.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		vulcanization
 	}
 }
@@ -508,8 +459,7 @@ conveyors = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/conveyers.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		vulcanization
 		shift_work
 		electrical_generation
@@ -521,8 +471,7 @@ pasteurization = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/pasteurization.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		vacuum_canning
 		electrical_capacitors
 	}
@@ -535,12 +484,11 @@ electric_railway = {
 	# Increases Railway max level by 1
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/electric_railway.dds"
-	category = production		
-	
+	category = production
 	unlocking_technologies = {
 		electrical_capacitors
 		steel_railway_cars
-	}	
+	}
 }
 
 combustion_engine = {
@@ -552,8 +500,7 @@ combustion_engine = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/combustion_engine.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		rotary_valve_engine
 	}
 }
@@ -564,14 +511,12 @@ pneumatic_tools = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/pneumatic_tools.dds"
 	category = production
-	
 	modifier = {
 		building_construction_sector_throughput_mult = 0.1
 		building_output_hardwood_mult = 0.25
 		country_resource_discovery_chance_mult = 0.25
 	}
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		rotary_valve_engine
 		reinforced_concrete
 	}
@@ -583,7 +528,6 @@ nitrogen_fixation = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/nitrogen_fixation.dds"
 	category = production
-	
 	unlocking_technologies = {
 		improved_fertilizer
 	}
@@ -594,8 +538,7 @@ electric_arc_process = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/electric_arc_process.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		open_hearth_process
 	}
 }
@@ -605,8 +548,7 @@ steam_turbine = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/steam_turbines.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		electrical_generation
 	}
 }
@@ -616,8 +558,7 @@ plastics = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/plastics.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		reinforced_concrete
 	}
 }
@@ -629,8 +570,7 @@ electrical_capacitors = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/electrical_capacitors.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		electrical_generation
 	}
 }
@@ -640,7 +580,6 @@ radio = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/radio.dds"
 	category = production
-	
 	unlocking_technologies = {
 		telephone
 	}
@@ -651,7 +590,6 @@ telephone = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/telephone.dds"
 	category = production
-	
 	unlocking_technologies = {
 		shift_work
 		electrical_generation
@@ -659,13 +597,11 @@ telephone = {
 }
 
 ### ERA 5
-
 dough_rollers = {
 	# Unlocks the Automated Bakery PM in Food Industries
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/rollers.dds"
 	category = production
-	
 	unlocking_technologies = {
 		conveyors
 	}
@@ -677,7 +613,6 @@ flash_freezing = {
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/flash_freezing.dds"
 	category = production
-	
 	unlocking_technologies = {
 		pasteurization
 	}
@@ -688,8 +623,7 @@ oil_turbine = {
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/oil_turbines.dds"
 	category = production
-	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		steam_turbine
 	}
 }
@@ -700,7 +634,6 @@ arc_welding = {
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
 	category = production
-	
 	unlocking_technologies = {
 		electric_arc_process
 		pneumatic_tools
@@ -713,8 +646,559 @@ compression_ignition = {
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/compression_ignition.dds"
 	category = production
-	
 	unlocking_technologies = {
 		combustion_engine
+	}
+}
+
+### ERA 6
+organochlorines = {
+	# Unlocks Organochlorine Pesticides PM in Chemical Plants
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/organochlorines.dds"
+	category = production
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+}
+
+tig_welding = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/tig_welding.dds"
+	category = production
+	unlocking_technologies = {
+		arc_welding
+	}
+}
+
+natural_gas_wells = {
+	# Unlocks Natural Gas Wells building
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/natural_gas_wells.dds"
+	category = production
+	unlocking_technologies = {
+		pumpjacks
+		arc_welding
+	}
+}
+
+combustion_gas_turbine = {
+	# Unlocks Combustion Gas Turbine PM in Power Plants
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/combustion_gas_turbine.dds"
+	category = production
+	unlocking_technologies = {
+		oil_turbine
+		compression_ignition
+	}
+}
+
+electromechanical_computer = {
+	# Unlocks Computers Industry building
+	# Unlocks Electromechanical Computer PM in Computers Industry
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/electromechanical_computer.dds"
+	category = production
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+}
+
+microwave = {
+	# Unlocks Microwave PM in Electrics Industry
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/microwave.dds"
+	category = production
+	unlocking_technologies = {
+		flash_freezing
+	}
+}
+
+nylon = {
+	# Unlocks Nylon PM in Synthetic Plants
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/nylon.dds"
+	category = production
+	unlocking_technologies = {
+		art_silk
+	}
+}
+
+### ERA 7
+no-tillage_agriculture = {
+	# Unlocks No-Tillage Agriculture PM in Rye Farms, Wheat Farms, Millet Farms
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/no-tillage_agriculture.dds"
+	category = production
+	unlocking_technologies = {
+		combustion_engine
+		mechanized_farming
+	}
+}
+
+basic_oxygen_steelmaking = {
+	# Unlocks Basic Oxygen Steelmaking PM in Steel Mills
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/basic_oxygen_steelmaking.dds"
+	category = production
+	unlocking_technologies = {
+		arc_welding
+	}
+}
+
+fracking = {
+	# Unlocks Fracking PM in Oil Wells
+	#TODO More resource discovery?
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/fracking.dds"
+	category = production
+	unlocking_technologies = {
+		natural_gas_wells
+	}
+}
+
+molbile_offshore_drilling_units = {
+	era = era_7
+	# Unlocks Mobile Offshore Drilling Units PM in Oil Wells and Natural Gas Well
+	texture = "gfx/interface/icons/invention_icons/mobile_offshore_drilling_units.dds"
+	category = production
+	unlocking_technologies = {
+		natural_gas_wells
+	}
+}
+
+nuclear_fission = {
+	# Unlocks Nuclear Fission PM in Power Plants
+	# TODO (verify) Unlcoks Uranium Enrichment PM in Chemical Plants ?
+	# Unlocks Uranium as a resource
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/nuclear_fission.dds"
+	category = production
+	unlocking_technologies = {
+		combustion_gas_turbine
+	}
+}
+
+transistors = {
+	# Unlocks Semiconductor Fabrication Plant building
+	# Unlocks Silicon Wafers PM in Semiconductor Fabrication Plant
+	# Unlocks Transistors PM in Semiconductor Fabrication Plant
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/transistors.dds"
+	category = production
+	unlocking_technologies = {
+		electromechanical_computer
+	}
+}
+
+stored_program_computer = {
+	# Unlocks Stored Program Computer PM in Computers Industry
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/stored_program_computer.dds"
+	category = production
+	unlocking_technologies = {
+		electromechanical_computer
+	}
+}
+
+float_glass_process = {
+	# Unlocks Float Glass Process PM in Glass Industry
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/float_glass_process.dds"
+	category = production
+	unlocking_technologies = {
+		arc_welding
+		conveyors
+	}
+}
+
+polyester = {
+	# Unlocks Polyester PM in Synthetic Plants
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/polyester.dds"
+	category = production
+	unlocking_technologies = {
+		nylon
+	}
+}
+
+### ERA 8
+ogranophospates = {
+	# Unlocks Organophosphates PM in Chemical Plants
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/organophosphates.dds"
+	category = production
+	unlocking_technologies = {
+		organochlorines
+	}
+}
+
+nuclear_fusion = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/nuclear_fusion.dds"
+	category = production
+	unlocking_technologies = {
+		nuclear_fission
+	}
+}
+
+integrated_circuts = {
+	# Unlocks Integrated Circuits PM in Semiconductor Fabrication Plant
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/integrated_circuits.dds"
+	category = production
+	unlocking_technologies = {
+		transistors
+	}
+}
+
+MOSFET = {
+	# Unlocks MOSFET PM in Semiconductor Fabrication Plant
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/mosfet.dds"
+	category = production
+	unlocking_technologies = {
+		transistors
+	}
+}
+
+black_and_white_television = {
+	# Unlocks Black and White Television PM in Electrics Industry
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/black_and_white_television.dds"
+	category = production
+	unlocking_technologies = {
+		transistors
+	}
+}
+
+floppy_disk = {
+	# Unlocks Microelectronics Factory building
+	# Unlocks Floppy Disk PM in Microelectronics Factory
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/floppy_disk.dds"
+	category = production
+	unlocking_technologies = {
+		stored_program_computer
+	}
+}
+
+improved_mechanization = {
+	# Unlocks Improved Mechanization PM in Rye Farms, Wheat Farms, Millet Farms
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/improved_mechanization.dds"
+	category = production
+	unlocking_technologies = {
+		integrated_circuts
+		mechanized_farming
+	}
+}
+
+crewed_spaceflight = {
+	# Unlocks Command Center Wonder #TODO Implement wonders, maybe goes in society category
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/crewed_spaceflight.dds"
+	category = production
+	unlocking_technologies = {
+		stored_program_computer
+	}
+}
+
+hard_disk_drives = {
+	# Unlocks Hard Disk Drives PM in Microelectronics Factory
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/hard_disk_drives.dds"
+	category = production
+	unlocking_technologies = {
+		MOSFET
+		stored_program_computer
+	}
+}
+
+high_speed_railway = {
+	# Unlocks High Speed Railway PM in Railways
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/high_speed_railway.dds"
+	category = production
+	unlocking_technologies = {
+		electric_railway
+	}
+}
+
+LASER = {
+	#TODO what does this do
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/laser.dds"
+	category = production
+	unlocking_technologies = {
+		microwave
+	}
+}
+
+### ERA 9
+space_station = {
+	# Unlocks Space Station Wonder #TODO Implement wonders, maybe goes in society category
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/space_station.dds"
+	category = production
+	unlocking_technologies = {
+		crewed_spaceflight
+	}
+}
+
+single_chip_microprocessor = {
+	# Unlocks Single Chip Microprocessor PM in semiconductor fabrication plant
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/single_chip_microprocessor.dds"
+	category = production
+	unlocking_technologies = {
+		integrated_circuts
+		MOSFET
+	}
+}
+
+color_television = {
+	# Unlocks Color Television PM in Electrics Industry
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/color_television.dds"
+	category = production
+	unlocking_technologies = {
+		black_and_white_television
+		MOSFET
+	}
+}
+
+cassette_tape = {
+	# Unlocks Cassette Tape PM in Microelectronics Factory
+	# Requires iron, plastic, and electronics
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/cassette_tape.dds"
+	category = production
+	unlocking_technologies = {
+		floppy_disk
+	}
+}
+
+fiber_optics = {
+	# Unlocks Fiber Optic Network building
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/fiber_optics.dds"
+	category = production
+	unlocking_technologies = {
+		LASER
+		plastics
+		polyester
+	}
+}
+
+low-input_agriculture = {
+	# Unlocks Low Input Agriculture PM in Rye Farms, Wheat Farms, Millet Farms
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/low_input_agriculture.dds"
+	category = production
+	unlocking_technologies = {
+		organophosphates
+		no-tillage_agriculture
+	}
+}
+
+pocket_calculator = {
+	# Unlocks Pocket Calculator PM in Electrics Industry
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/pocket_calculator.dds"
+	category = production
+	unlocking_technologies = {
+		single_chip_microprocessor
+	}
+}
+
+ARPANET = {
+	# Unlocks ARPANET PM in Fiber Optic Network
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/arpanet.dds"
+	category = production
+	unlocking_technologies = {
+		fiber_optics
+	}
+}
+
+### ERA 10
+hot_pockets = {
+	#TODO what is this for and why is it here
+	# only unlcokable if ur name is conjon
+	# Unlocks Hot Pockets PM in Food Industries
+	era = era_10
+	texture = "gfx/interface/icons/invention_icons/hot_pockets.dds"
+	category = production
+	unlocking_technologies = {
+		dough_rollers
+	}
+}
+
+GPS = {
+	#TODO should this be in military?
+	# Unlocks GPS PM in Satellite Industry
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/gps.dds"
+	unlocking_technologies = {
+		crewed_spaceflight
+	}
+}
+
+flash_memory = {
+	# Unlocks Flash Memory PM in Microelectronics Factory
+	era = era_10
+	texture = "gfx/interface/icons/invention_icons/flash_memory.dds"
+	category = production
+	unlocking_technologies = {
+		hard_disk_drives
+	}
+}
+
+personal_computer = {
+	# Unlocks Personal Computer PM in Electrics Industry
+	era = era_10
+	texture = "gfx/interface/icons/invention_icons/personal_computer.dds"
+	category = production
+	unlocking_technologies = {
+		pocket_calculator
+	}
+}
+
+### ERA 11
+satelite_tv = {
+	# Unlocks Satellite TV PM in Satellite Industry
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/satellite_tv.dds"
+	category = production
+	unlocking_technologies = {
+		GPS
+	}
+}
+
+mobile_phone = {
+	# Unlocks Mobile Phone PM in Electrics Industry
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/mobile_phone.dds"
+	category = production
+	unlocking_technologies = {
+		personal_computer
+	}
+}
+
+solid_state_drive = {
+	# Unlocks Solid State Drive PM in Microelectronics Factory
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/solid_state_drive.dds"
+	category = production
+	unlocking_technologies = {
+		flash_memory
+	}
+}
+
+CD-ROM = {
+	# Unlocks CD-ROM PM in Microelectronics Factory
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/cd_rom.dds"
+	category = production
+	unlocking_technologies = {
+		cassette_tape
+	}
+}
+
+world_wide_web = {
+	# Unlocks World Wide Web PM in Fiber Optic Network
+	# TODO allow building fiber optic network on ocean tiles, these can be purchased (somehow)
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/world_wide_web.dds"
+	category = production
+	unlocking_technologies = {
+		ARPANET
+		personal_computer
+	}
+}
+
+laptop = {
+	# Unlocks Laptop PM in Electrics Industry
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/laptop.dds"
+	category = production
+	unlocking_technologies = {
+		personal_computer
+	}
+}
+
+### ERA 12
+unmanned_interplanetary_space_travel = {
+	# TODO this should possibly be in military or society
+	# Unlocks Unmanned Interplanetary Space Travel PM in Satellite Industry
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/unmanned_interplanetary_space_travel.dds"
+	category = production
+	unlocking_technologies = {
+		crewed_spaceflight
+	}
+}
+
+personal_digital_assistants = {
+	# Unlocks Personal Digital Assistants PM in Electrics Industry
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/personal_digital_assistants.dds"
+	category = production
+	unlocking_technologies = {
+		mobile_phone
+	}
+}
+
+WI-FI = {
+	#Unlocks Wireless Router PM in Electrics Industry
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/wi_fi.dds"
+	category = production
+	unlocking_technologies = {
+		world_wide_web
+		laptop
+	}
+}
+
+DVD = {
+	# Unlocks DVD PM in Microelectronics Factory
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/dvd.dds"
+	category = production
+	unlocking_technologies = {
+		CD-ROM
+	}
+}
+
+smartphone = {
+	# Unlocks Smartphone PM in Electrics Industry
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/smartphone.dds"
+	category = production
+	unlocking_technologies = {
+		mobile_phone
+		WI-FI
+	}
+}
+
+3G_wireless_telecommunications = {
+	# Unlocks 3G Wireless Telecomunications PM in Radio Tower #TODO implement radio tower in military
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/3g_wireless_telecommunications.dds"
+	category = production
+	unlocking_technologies = {
+		WI-FI
+	}
+}
+
+### ERA 13
+4G = {
+	# Unlocks 4G PM in Radio Tower #TODO implement radio tower in military
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/4g.dds"
+	category = production
+	unlocking_technologies = {
+		3G_wireless_telecommunications
 	}
 }
