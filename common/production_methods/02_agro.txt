@@ -1,4 +1,4 @@
-pm_simple_farming = {
+﻿pm_simple_farming = {
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -72,6 +72,28 @@ pm_chemical_fertilizer = {
 			building_employment_laborers_add = 3000
 			building_employment_farmers_add = 1850
 			building_employment_clergymen_add = 150
+		}
+	}
+}
+
+pm_organochlorine_pesticides = {
+	texture = "gfx/interface/icons/production_method_icons/organochloride_pesticides.dds"
+	unlocking_technologies = {
+		organochlorines
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods													
+			building_input_pesticides_add = 10
+			building_input_fertilizer_add = 40
+			# output goods													
+			building_output_grain_add = 200
+		}
+		level_scaled = {
+			# earnings														
+			building_employment_laborers_add = 2750
+			building_employment_farmers_add = 2400
+			building_employment_clergymen_add = 100
 		}
 	}
 }
@@ -338,6 +360,28 @@ pm_chemical_fertilizer_building_rice_farm = {
 			building_employment_laborers_add = 3000
 			building_employment_farmers_add = 1850
 			building_employment_clergymen_add = 150
+		}
+	}
+}
+
+pm_organochlorine_pesticides_building_rice_farm = {
+	texture = "gfx/interface/icons/production_method_icons/organochloride_pesticides.dds"
+	unlocking_technologies = {
+		organochlorines
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods													
+			building_input_pesticides_add = 10
+			building_input_fertilizer_add = 40
+			# output goods													
+			building_output_grain_add = 200
+		}
+		level_scaled = {
+			# earnings														
+			building_employment_laborers_add = 2750
+			building_employment_farmers_add = 2400
+			building_employment_clergymen_add = 100
 		}
 	}
 }
