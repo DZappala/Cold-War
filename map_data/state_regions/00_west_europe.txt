@@ -3028,7 +3028,7 @@ STATE_FRIESLAND = {
 	subsistence_building = "building_subsistence_farms"
 	provinces = {
 		"x4141A0"
-		"x41C021"z
+		"x41C021"
 		"x5A48A2"
 		"xC041A0"
 		"xC0C021"
