@@ -653,7 +653,8 @@ compression_ignition = {
 
 ### ERA 6
 organochlorines = {
-	# Unlocks Organochlorine Pesticides PM in Chemical Plants
+	# Unlocks Organochlorine Pesticides PM in Rye Farms, Wheat Farms, Rice Farms, Maize Farms, Millet Farms
+	# Unlocks Pesticides PM in Chemical Plants
 	era = era_6
 	texture = "gfx/interface/icons/invention_icons/organochlorines.dds"
 	category = production
@@ -663,9 +664,13 @@ organochlorines = {
 }
 
 tig_welding = {
+	# +15% construction throughput
 	era = era_6
 	texture = "gfx/interface/icons/invention_icons/tig_welding.dds"
 	category = production
+	modifier = {
+		building_construction_sector_throughput_mult = 0.15
+	}
 	unlocking_technologies = {
 		arc_welding
 	}
