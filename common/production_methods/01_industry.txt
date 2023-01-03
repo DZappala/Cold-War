@@ -2352,6 +2352,26 @@ pm_radios = {
 	}
 }
 
+pm_electromechanical_computers = {
+	texture = "gfx/interface/icons/production_method_icons/electromechanical_computers.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_electricity_add = 50
+			building_input_steel_add = 20
+			building_input_hardwood_add = 20
+			building_input_tools_add = 10
+			# output goods
+			building_output_computers_add = 30
+		}
+		level_scaled = {
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
 pm_muskets = {
 	texture = "gfx/interface/icons/production_method_icons/muskets.dds"
 	building_modifiers = {
