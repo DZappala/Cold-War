@@ -1541,6 +1541,7 @@ pm_pesticides = {
 			# input goods
 			building_input_sulfur_add = 30
 			building_input_oil_add = 30
+			building_input_iron_add = 30
 			# output goods
 			building_output_fertilizer_add = -30
 			building_output_pesticides_add = 40

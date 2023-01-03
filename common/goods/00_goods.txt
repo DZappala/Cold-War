@@ -299,6 +299,14 @@ fertilizer = {
 	traded_quantity = 15
 }
 
+pesticides = {
+	texture = "gfx/interface/icons/goods_icons/pesticides.dds"
+	cost = 40
+	category = industrial
+	prestige_factor = 5
+	traded_quantity = 15
+}
+
 tools = {
 	texture = "gfx/interface/icons/goods_icons/tools.dds"
 	cost = 40
