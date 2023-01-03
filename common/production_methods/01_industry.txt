@@ -2313,6 +2313,10 @@ pm_tank_production = {
 	}
 }
 
+pm_no_telephones = {
+	texture = "gfx/interface/icons/production_method_icons/no_telephones.dds"
+}
+
 pm_telephones = {
 	texture = "gfx/interface/icons/production_method_icons/telephones.dds"
 	building_modifiers = {
@@ -2345,6 +2349,28 @@ pm_radios = {
 			building_input_electricity_add = 50
 			building_output_telephones_add = -20
 			building_output_radios_add = 40
+		}
+		level_scaled = {
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_no_microwaves = {
+	texture = "gfx/interface/icons/production_method_icons/no_microwaves.dds"
+}
+
+pm_microwaves = {
+	texture = "gfx/interface/icons/production_method_icons/microwaves.dds"
+	unlocking_technologies = {
+		microwave
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_electricity_add = 50
+			building_output_telephones_add = -20
+			building_output_radios_add = -20
+			building_output_microwaves_add = 40
 		}
 		level_scaled = {
 			building_employment_engineers_add = 500

@@ -403,6 +403,7 @@ pmg_ownership_capital_building_war_machine_industry = {
 pmg_telephones_category = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
+		pm_no_telephones
 		pm_telephones
 	}
 }
@@ -412,6 +413,14 @@ pmg_radios_category = {
 	production_methods = {
 		pm_no_radios
 		pm_radios
+	}
+}
+
+pmg_microwaves_category = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_microwaves
+		pm_microwaves
 	}
 }
 
