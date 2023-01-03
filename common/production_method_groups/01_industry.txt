@@ -257,11 +257,13 @@ pmg_synthetic_dyes = {
 	}
 }
 
-pmg_synthetic_silk = {
+pmg_synthetic_frabrics = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_no_artificial_fibers
 		pm_rayon
+		pm_nylon
+		pm_polyester
 	}
 }
 
