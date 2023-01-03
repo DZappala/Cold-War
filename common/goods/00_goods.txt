@@ -1,4 +1,4 @@
-# goods types, organized by category
+﻿# goods types, organized by category
 # prestige_factor							Base prestige for occupying the rank MIN_PRESTIGE_AWARD spot on the goods production leaderboard. x2 awarded for every rank above the minimum.
 ############
 # MILITARY #
@@ -254,6 +254,14 @@ rubber = {
 
 oil = {
 	texture = "gfx/interface/icons/goods_icons/oil.dds"
+	cost = 40
+	category = industrial
+	prestige_factor = 5
+	consumption_tax_cost = 200
+}
+
+natural_gas = {
+	texture = "gfx/interface/icons/goods_icons/natural_gas.dds"
 	cost = 40
 	category = industrial
 	prestige_factor = 5
