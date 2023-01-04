@@ -197,7 +197,7 @@ pm_compression_ignition_tractors = {
 pm_no-tillage_agriculture = {
 	texture = "gfx/interface/icons/production_method_icons/no_tillage_agriculture.dds"
 	unlocking_technologies = {
-		no_tillage_agriculture
+		no-tillage_agriculture
 	}
 	building_modifiers = {
 		workforce_scaled = {
