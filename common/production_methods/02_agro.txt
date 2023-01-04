@@ -194,6 +194,23 @@ pm_compression_ignition_tractors = {
 	}
 }
 
+pm_no-tillage_agriculture = {
+	texture = "gfx/interface/icons/production_method_icons/no_tillage_agriculture.dds"
+	unlocking_technologies = {
+		no_tillage_agriculture
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods								
+			building_input_oil_add = 5
+			building_input_engines_add = 2
+		}
+		level_scaled = {
+			building_employment_laborers_add = -4000
+		}
+	}
+}
+
 pm_privately_owned = {
 	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
 	disallowing_laws = {
