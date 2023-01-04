@@ -2471,6 +2471,72 @@ pm_electromechanical_computers = {
 	}
 }
 
+pm_stored_program_computers = {
+	texture = "gfx/interface/icons/production_method_icons/stored_program_computers.dds"
+	unlocking_technologies = {
+		stored_program_computers
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_electricity_add = 60
+			building_input_steel_add = 25
+			building_input_hardwood_add = 25
+			building_input_tools_add = 15
+			# output goods
+			building_output_computers_add = 40
+		}
+		level_scaled = {
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1500
+			building_employment_academics_add = 500
+		}
+	}
+}
+
+pm_semiconductors = {
+	texture = "gfx/interface/icons/production_method_icons/semiconductors.dds"
+	unlocking_technologies = {
+		transistors
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_electricity_add = 50
+			building_input_lead_add = 20
+			building_input_tools_add = 10
+			# output goods
+			building_output_semiconductors_add = 50
+		}
+		level_scaled = {
+			building_employment_engineers_add = 1000
+			building_employment_academics_add = 500
+		}
+	}
+}
+
+pm_no_chips = {
+	texture = "gfx/interface/icons/production_method_icons/no_chips.dds"
+}
+
+pm_transistors = {
+	texture = "gfx/interface/icons/production_method_icons/transistors.dds"
+	unlocking_technologies = {
+		transistors
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			building_input_electricity_add = 50
+			building_input_semiconductors_add = 20
+			building_input_tools_add = 10
+			#output goods
+			building_output_transistors_add = 50
+			building_output_semiconductors_add = -20
+		}
+	}
+}
+
 pm_muskets = {
 	texture = "gfx/interface/icons/production_method_icons/muskets.dds"
 	building_modifiers = {

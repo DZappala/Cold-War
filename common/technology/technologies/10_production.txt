@@ -774,7 +774,7 @@ molbile_offshore_drilling_units = {
 
 nuclear_fission = {
 	# Unlocks Nuclear Fission PM in Power Plants
-	# TODO (verify) Unlcoks Uranium Enrichment PM in Chemical Plants ?
+	# TODO could add Unlcoks Uranium Enrichment PM in Chemical Plants
 	# Unlocks Uranium as a resource
 	era = era_7
 	texture = "gfx/interface/icons/invention_icons/nuclear_fission.dds"
@@ -786,7 +786,7 @@ nuclear_fission = {
 
 transistors = {
 	# Unlocks Semiconductor Fabrication Plant building
-	# Unlocks Silicon Wafers PM in Semiconductor Fabrication Plant
+	# Unlocks Semiconductors PM in Semiconductor Fabrication Plant
 	# Unlocks Transistors PM in Semiconductor Fabrication Plant
 	era = era_7
 	texture = "gfx/interface/icons/invention_icons/transistors.dds"
@@ -803,17 +803,6 @@ stored_program_computer = {
 	category = production
 	unlocking_technologies = {
 		electromechanical_computer
-	}
-}
-
-float_glass_process = {
-	# Unlocks Float Glass Process PM in Glass Industry
-	era = era_7
-	texture = "gfx/interface/icons/invention_icons/float_glass_process.dds"
-	category = production
-	unlocking_technologies = {
-		arc_welding
-		conveyors
 	}
 }
 

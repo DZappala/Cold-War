@@ -454,6 +454,14 @@ radios = {
 	prestige_factor = 10
 }
 
+computers = {
+	texture = "gfx/interface/icons/goods_icons/computers.dds"
+	cost = 90
+	category = luxury
+	obsession_chance = 1
+	prestige_factor = 10
+}
+
 luxury_clothes = {
 	texture = "gfx/interface/icons/goods_icons/luxury_clothes.dds"
 	cost = 60
