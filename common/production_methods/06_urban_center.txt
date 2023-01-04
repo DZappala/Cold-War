@@ -378,7 +378,7 @@ pm_nuclear_plant = {
 	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
 	pollution_generation = 150
 	unlocking_technologies = {
-		nuclear_power
+		nuclear_fission
 	}
 	building_modifiers = {
 		workforce_scaled = {

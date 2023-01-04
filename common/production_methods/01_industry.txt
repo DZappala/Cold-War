@@ -1878,7 +1878,7 @@ pm_basic_oxygen_process = {
 	texture = "gfx/interface/icons/production_method_icons/basic_oxygen_process.dds"
 	pollution_generation = 30
 	unlocking_technologies = {
-		basic_oxygen_process
+		basic_oxygen_steelmaking
 	}
 	building_modifiers = {
 		workforce_scaled = {
@@ -2474,7 +2474,7 @@ pm_electromechanical_computers = {
 pm_stored_program_computers = {
 	texture = "gfx/interface/icons/production_method_icons/stored_program_computers.dds"
 	unlocking_technologies = {
-		stored_program_computers
+		stored_program_computer
 	}
 	building_modifiers = {
 		workforce_scaled = {
@@ -2490,6 +2490,25 @@ pm_stored_program_computers = {
 			building_employment_machinists_add = 2000
 			building_employment_engineers_add = 1500
 			building_employment_academics_add = 500
+		}
+	}
+}
+
+pm_publicly_traded_building_computers_industry = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+	unlocking_technologies = {
+		mutual_funds
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
 		}
 	}
 }
@@ -2511,6 +2530,25 @@ pm_semiconductors = {
 		level_scaled = {
 			building_employment_engineers_add = 1000
 			building_employment_academics_add = 500
+		}
+	}
+}
+
+pm_publicly_traded_semiconductors_industry = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+	unlocking_technologies = {
+		mutual_funds
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
 		}
 	}
 }

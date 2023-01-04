@@ -225,7 +225,7 @@ pmg_ownership_capital_building_uranium_mine = {
 	#TODO: uses iron mine PMs, but should use uranium mine PMs
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	production_methods = {
-		pm_merchant_guilds_building_idon_mine
+		pm_merchant_guilds_building_iron_mine
 		pm_privately_owned_building_iron_mine
 		pm_publicly_traded_building_iron_mine
 		pm_government_run_building_iron_mine

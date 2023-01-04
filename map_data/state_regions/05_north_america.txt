@@ -12195,7 +12195,7 @@ STATE_TEXAS = {
 		undiscovered_amount = 50
 	}
 	resource = {
-		type = "bg_gas_extraction"
+		type = "bg_natural_gas_extraction"
 		undiscovered_amount = 80
 	}
 	naval_exit_id = 3060

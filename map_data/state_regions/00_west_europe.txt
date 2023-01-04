@@ -3804,7 +3804,7 @@ STATE_HANNOVER = {
 		undiscovered_amount = 30
 	}
 	resource = {
-		type = "bg_natural_gas_Extraction"
+		type = "bg_natural_gas_extraction"
 		undiscovered_amount = 50
 	}
 	naval_exit_id = 3027

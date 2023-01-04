@@ -817,7 +817,7 @@ polyester = {
 }
 
 ### ERA 8
-ogranophospates = {
+organophosphates = {
 	# Unlocks Organophosphates PM in Chemical Plants
 	era = era_8
 	texture = "gfx/interface/icons/invention_icons/organophosphates.dds"
@@ -1034,6 +1034,7 @@ GPS = {
 	# Unlocks GPS PM in Satellite Industry
 	era = era_9
 	texture = "gfx/interface/icons/invention_icons/gps.dds"
+	category = production
 	unlocking_technologies = {
 		crewed_spaceflight
 	}
@@ -1176,10 +1177,10 @@ smartphone = {
 	}
 }
 
-3G_wireless_telecommunications = {
-	# Unlocks 3G Wireless Telecomunications PM in Radio Tower #TODO implement radio tower in military
+third_gen_wireless_telecommunications = {
+	# Unlocks third_gen Wireless Telecomunications PM in Radio Tower #TODO implement radio tower in military
 	era = era_12
-	texture = "gfx/interface/icons/invention_icons/3g_wireless_telecommunications.dds"
+	texture = "gfx/interface/icons/invention_icons/third_gen_wireless_telecommunications.dds"
 	category = production
 	unlocking_technologies = {
 		WI-FI
@@ -1187,12 +1188,12 @@ smartphone = {
 }
 
 ### ERA 13
-4G = {
-	# Unlocks 4G PM in Radio Tower #TODO implement radio tower in military
+fourth_gen = {
+	# Unlocks fourth_gen PM in Radio Tower #TODO implement radio tower in military
 	era = era_13
-	texture = "gfx/interface/icons/invention_icons/4g.dds"
+	texture = "gfx/interface/icons/invention_icons/fourth_gen.dds"
 	category = production
 	unlocking_technologies = {
-		3G_wireless_telecommunications
+		third_gen_wireless_telecommunications
 	}
 }

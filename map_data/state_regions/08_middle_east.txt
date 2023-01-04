@@ -838,7 +838,6 @@ STATE_HAIL = {
 		"x94ADBF"
 		"x9BD6E3"
 		"x9CED6B"
-		"x9F049F"
 		"x9FE32C"
 		"xA0251B"
 		"xA04148"
@@ -958,6 +957,7 @@ STATE_TRANSJORDAN = {
 		"xA25988"
 		"xC2B483"
 		"xE050E0"
+		"x9F049F"
 	}
 	city = "xC2B483"
 	port = "xE050E0"
