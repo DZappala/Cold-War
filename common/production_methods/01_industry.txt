@@ -1873,6 +1873,31 @@ pm_electric_arc_process = {
 	}
 }
 
+pm_basic_oxygen_process = {
+	#TODO: addition issues
+	texture = "gfx/interface/icons/production_method_icons/basic_oxygen_process.dds"
+	pollution_generation = 30
+	unlocking_technologies = {
+		basic_oxygen_process
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_iron_add = 120
+			building_input_coal_add = 30
+			building_input_electricity_add = 30
+			# output goods
+			building_output_steel_add = 220
+		}
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 900
+		}
+	}
+}
+
 pm_watertube_boiler_building_steel_mills = {
 	texture = "gfx/interface/icons/production_method_icons/watertube_boiler.dds"
 	pollution_generation = 5

@@ -284,6 +284,7 @@ pmg_steelmaking_process = {
 		pm_bessemer_process
 		pm_open_hearth_process
 		pm_electric_arc_process
+		pm_basic_oxygen_process
 	}
 }
 
