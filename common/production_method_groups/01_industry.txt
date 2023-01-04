@@ -225,6 +225,13 @@ pmg_fertilizer_production = {
 		pm_artificial_fertilizers
 		pm_improved_fertilizer
 		pm_nitrogen_fixation
+	}
+}
+
+pmg_pesticides_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_pesticides
 		pm_pesticides
 	}
 }
