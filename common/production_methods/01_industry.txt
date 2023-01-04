@@ -2480,8 +2480,8 @@ pm_stored_program_computers = {
 		workforce_scaled = {
 			# input goods
 			building_input_electricity_add = 60
-			building_input_steel_add = 25
-			building_input_hardwood_add = 25
+			building_input_steel_add = 30
+			building_input_transistors_add = 15
 			building_input_tools_add = 15
 			# output goods
 			building_output_computers_add = 40

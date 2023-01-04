@@ -454,11 +454,33 @@ radios = {
 	prestige_factor = 10
 }
 
+microwaves = {
+	texture = "gfx/interface/icons/goods_icons/microwaves.dds"
+	cost = 90
+	category = luxury
+	obsession_chance = 1
+	prestige_factor = 10
+}
+
 computers = {
 	texture = "gfx/interface/icons/goods_icons/computers.dds"
 	cost = 90
 	category = luxury
 	obsession_chance = 1
+	prestige_factor = 10
+}
+
+semiconductors = {
+	texture = "gfx/interface/icons/goods_icons/semiconductors.dds"
+	cost = 50
+	category = industrial
+	prestige_factor = 10
+}
+
+transistors = {
+	texture = "gfx/interface/icons/goods_icons/transistors.dds"
+	cost = 50
+	category = industrial
 	prestige_factor = 10
 }
 
