@@ -720,6 +720,27 @@ pm_combustion_derricks = {
 	}
 }
 
+pm_fracking = {
+	texture = "gfx/interface/icons/production_method_icons/fracking.dds"
+	pollution_generation = 20
+	unlocking_technologies = {
+		fracking
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_engines_add = 10
+			# output goods
+			building_output_oil_add = 150
+		}
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1500
+		}
+	}
+}
+
 pm_steam_pumps = {
 	texture = "gfx/interface/icons/production_method_icons/simple_oil_extraction.dds"
 	pollution_generation = 10

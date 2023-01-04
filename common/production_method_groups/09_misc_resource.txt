@@ -134,6 +134,7 @@ pmg_base_building_oil_rig = {
 	production_methods = {
 		pm_steam_derricks
 		pm_combustion_derricks
+		pm_fracking
 	}
 }
 
