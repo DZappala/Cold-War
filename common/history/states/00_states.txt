@@ -21589,7 +21589,7 @@
 	}
 	s:STATE_ELBE = {
 		create_state = {
-			country = c:GBR
+			country = c:AOG
 			owned_provinces = {
 				x68BE66
 				xC08061
@@ -45513,7 +45513,7 @@
 	}
 	s:STATE_STYRIA = {
 		create_state = {
-			country = c:GBR
+			country = c:AOG
 			owned_provinces = {
 				x017E3C
 				x59D927
@@ -45529,7 +45529,7 @@
 	}
 	s:STATE_TYROL = {
 		create_state = {
-			country = c:USA
+			country = c:AOG
 			owned_provinces = {
 				xF0E0C0
 				x5D4166
@@ -45537,11 +45537,6 @@
 				xF061C0
 				xC74CD7
 				x4A9C68
-			}
-		}
-		create_state = {
-			country = c:FRA
-			owned_provinces = {
 				xD0C0E0
 				xEC6873
 				x51C0E0
@@ -45633,7 +45628,7 @@
 	}
 	s:STATE_WESTPHALIA = {
 		create_state = {
-			country = c:GBR
+			country = c:AOG
 			owned_provinces = {
 				x910095
 				x4101A0
@@ -45723,7 +45718,7 @@
 	}
 	s:STATE_RHINELAND = {
 		create_state = {
-			country = c:FRA
+			country = c:AOG
 			owned_provinces = {
 				x707505
 				x11C021
@@ -45738,7 +45733,7 @@
 	}
 	s:STATE_NORTH_RHINE = {
 		create_state = {
-			country = c:GBR
+			country = c:AOG
 			owned_provinces = {
 				x486F6A
 				xD08021
@@ -45806,7 +45801,7 @@
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN = {
 		create_state = {
-			country = c:GBR
+			country = c:AOG
 			owned_provinces = {
 				x00C060
 				xBFCC21
@@ -45828,16 +45823,11 @@
 	}
 	s:STATE_WURTTEMBERG = {
 		create_state = {
-			country = c:USA
+			country = c:AOG
 			owned_provinces = {
 				xC541D2
 				x100060
 				x118060
-			}
-		}
-		create_state = {
-			country = c:FRA
-			owned_provinces = {
 				xDBB84C
 				x908060
 				x8F0060
@@ -45847,16 +45837,11 @@
 	}
 	s:STATE_BADEN = {
 		create_state = {
-			country = c:FRA
+			country = c:AOG
 			owned_provinces = {
 				xB00160
 				xB08061
 				xAEBA2A
-			}
-		}
-		create_state = {
-			country = c:USA
-			owned_provinces = {
 				x318061
 				xE0A2B9
 			}
@@ -45865,7 +45850,7 @@
 	}
 	s:STATE_HANNOVER = {
 		create_state = {
-			country = c:GBR
+			country = c:AOG
 			owned_provinces = {
 				xF9DCA2
 				x784B8E
@@ -45877,11 +45862,6 @@
 				x165E05
 				x4101E0
 				xC00161
-			}
-		}
-		create_state = {
-			country = c:USA
-			owned_provinces = {
 				xECC3B4
 			}
 		}
@@ -45889,7 +45869,7 @@
 	}
 	s:STATE_BAVARIA = {
 		create_state = {
-			country = c:USA
+			country = c:AOG
 			owned_provinces = {
 				xA7094D
 				x82F4B9
@@ -45914,7 +45894,7 @@
 	}
 	s:STATE_FRANCONIA = {
 		create_state = {
-			country = c:USA
+			country = c:AOG
 			owned_provinces = {
 				x648AD1
 				xF91154
@@ -45951,7 +45931,7 @@
 	}
 	s:STATE_BRUNSWICK = {
 		create_state = {
-			country = c:GBR
+			country = c:AOG
 			owned_provinces = {
 				x4C16EA
 				x43D537
@@ -45964,7 +45944,7 @@
 	}
 	s:STATE_HESSE = {
 		create_state = {
-			country = c:USA
+			country = c:AOG
 			owned_provinces = {
 				x11C0A0
 				x90C020
@@ -45975,11 +45955,6 @@
 				x3E794B
 				xC08020
 				xD04121
-			}
-		}
-		create_state = {
-			country = c:GBR
-			owned_provinces = {
 				xFF1DBB
 				x2248E2
 			}
