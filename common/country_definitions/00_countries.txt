@@ -28,6 +28,20 @@ AOG = {
 	capital = STATE_HESSE
 }
 
+AOA = {
+	color = {
+		252
+		50
+		74
+	}
+	country_type = recognized
+	tier = principality
+	cultures = {
+		south_german
+	}
+	capital = STATE_TYROL
+}
+
 DDR = {
 	color = {
 		250
@@ -188,6 +202,66 @@ USA = {
 		yankee
 	}
 	capital = STATE_DISTRICT_OF_COLUMBIA
+}
+
+HAW = {
+	color = {
+		51
+		255
+		51
+	}
+	country_type = colonial
+	tier = kingdom
+	cultures = {
+		hawaiian
+	}
+	capital = STATE_HAWAII
+}
+
+AKA = {
+	color = {
+		169
+		201
+		252
+	}
+	country_type = colonial
+	tier = kingdom
+	cultures = {
+		yankee
+	}
+	capital = STATE_ALASKA
+}
+
+GUM = {
+	color = {
+		0
+		0
+		225
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		micronesian
+		polynesian
+		yankee
+	}
+	capital = STATE_WEST_MICRONESIA
+}
+
+SPM = {
+	color = {
+		0
+		59
+		117
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		micronesian
+		polynesian
+		yankee
+	}
+	capital = STATE_WEST_MICRONESIA
 }
 
 CSA = {

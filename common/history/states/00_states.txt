@@ -275,7 +275,7 @@
 	}
 	s:STATE_BALUCHISTAN = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x4AAAC0
 				x4DC3FF
@@ -364,7 +364,7 @@
 	}
 	s:STATE_SOUTH_BENGAL = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x4123FE
 				xB06FC2
@@ -703,7 +703,7 @@
 	}
 	s:STATE_ALASKA = {
 		create_state = {
-			country = c:USA
+			country = c:AKA
 			owned_provinces = {
 				x648923
 				x8C3A89
@@ -11490,7 +11490,7 @@
 	}
 	s:STATE_EAST_MICRONESIA = {
 		create_state = {
-			country = c:USA
+			country = c:SPM
 			owned_provinces = {
 				x808090
 				x808011
@@ -11504,11 +11504,14 @@
 	}
 	s:STATE_WEST_MICRONESIA = {
 		create_state = {
-			country = c:USA
+			country = c:SPM
 			owned_provinces = {
 				x6E4206
 				x71414D
 				xA7F7E3
+			}
+			country = c:GUM
+			owned_provinces = {
 				x414170
 			}
 		}
@@ -22262,7 +22265,7 @@
 	}
 	s:STATE_ORISSA = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				xB07FDD
 				x5031A0
@@ -22293,7 +22296,7 @@
 	}
 	s:STATE_SINDH = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				xC7D26A
 				x882A58
@@ -22333,7 +22336,7 @@
 	}
 	s:STATE_RAJPUTANA = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				xBC1373
 				xE95A9E
@@ -22413,7 +22416,7 @@
 	}
 	s:STATE_CIRCARS = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x669373
 				x59BBE1
@@ -22459,7 +22462,7 @@
 	}
 	s:STATE_PUNJAB = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				xDB91D3
 				x66C9D9
@@ -22544,7 +22547,7 @@
 	}
 	s:STATE_NAGPUR = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x4605A8
 				x6B7184
@@ -22604,7 +22607,7 @@
 	}
 	s:STATE_MYSORE = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x696049
 				xEDFC06
@@ -22628,7 +22631,7 @@
 	}
 	s:STATE_TRAVANCORE = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				xCCDC34
 				xB0934C
@@ -22645,7 +22648,7 @@
 	}
 	s:STATE_MADRAS = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x6A381C
 				xA63901
@@ -22680,7 +22683,7 @@
 	}
 	s:STATE_KASHMIR = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x18CED8
 				x2DDFDB
@@ -22736,7 +22739,7 @@
 	}
 	s:STATE_HYDERABAD = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				xD9F23D
 				xDF9BF7
@@ -22789,7 +22792,7 @@
 	}
 	s:STATE_GUJARAT = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				xB89EF0
 				x8F568D
@@ -22841,7 +22844,7 @@
 	}
 	s:STATE_CENTRAL_INDIA = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x0E5FEA
 				xFE11FD
@@ -22916,7 +22919,7 @@
 	}
 	s:STATE_BOMBAY = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x42ACA6
 				xED0654
@@ -22964,7 +22967,7 @@
 	}
 	s:STATE_BIHAR = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x303EFE
 				x5F1E9B
@@ -23011,7 +23014,7 @@
 	}
 	s:STATE_NORTH_BENGAL = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				xF3A964
 				x30B0A0
@@ -23047,7 +23050,7 @@
 	}
 	s:STATE_ASSAM = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				xD9940E
 				x5D1160
@@ -23096,7 +23099,7 @@
 	}
 	s:STATE_AWADH = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				xFD9E2F
 				x4AAE9F
@@ -23144,7 +23147,7 @@
 	}
 	s:STATE_DELHI = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x13E50E
 				xFB8F08
@@ -30878,7 +30881,7 @@
 			}
 		}
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x2070E0
 				xE0B0E0
@@ -45513,7 +45516,7 @@
 	}
 	s:STATE_STYRIA = {
 		create_state = {
-			country = c:AOG
+			country = c:AOA
 			owned_provinces = {
 				x017E3C
 				x59D927
@@ -45529,7 +45532,7 @@
 	}
 	s:STATE_TYROL = {
 		create_state = {
-			country = c:AOG
+			country = c:AOA
 			owned_provinces = {
 				xF0E0C0
 				x5D4166
@@ -46350,7 +46353,7 @@
 	}
 	s:STATE_PASHTUNISTAN = {
 		create_state = {
-			country = c:BHT
+			country = c:BIC
 			owned_provinces = {
 				x15A4E6
 				xF8FE8B
