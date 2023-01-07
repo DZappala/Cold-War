@@ -12590,7 +12590,7 @@
 	}
 	s:STATE_GHANA = {
 		create_state = {
-			country = c:GBR
+			country = c:GHA
 			owned_provinces = {
 				x8504E6
 				x6C8064
@@ -12770,7 +12770,7 @@
 	}
 	s:STATE_BOTSWANA = {
 		create_state = {
-			country = c:GBR
+			country = c:TSW
 			owned_provinces = {
 				xB82E36
 				x83A6B2
@@ -12896,10 +12896,15 @@
 				xA77BC0
 				x38C967
 				x8BAD21
+			}
+		}
+		create_state = {
+			country = c:SWA
+			owned_provinces = {
 				x0DDFB8
-				x6001D0
-				x3D4350
 				x4401C5
+				x3D4350
+				x6001D0
 				x773A13
 			}
 		}
@@ -12910,7 +12915,7 @@
 	}
 	s:STATE_ZAMBIA = {
 		create_state = {
-			country = c:GBR
+			country = c:ZAM
 			owned_provinces = {
 				x1EE306
 				x7A1B83
@@ -19963,7 +19968,7 @@
 	}
 	s:STATE_DONGOLA = {
 		create_state = {
-			country = c:GBR
+			country = c:SUD
 			owned_provinces = {
 				xD6CE98
 				xCC661D
@@ -20107,7 +20112,7 @@
 	}
 	s:STATE_KORDOFAN = {
 		create_state = {
-			country = c:GBR
+			country = c:SUD
 			owned_provinces = {
 				x2B2E2D
 				x0E24E1
@@ -20199,7 +20204,7 @@
 	}
 	s:STATE_DARFUR = {
 		create_state = {
-			country = c:GBR
+			country = c:SUD
 			owned_provinces = {
 				x46ED52
 				xD6AF7B
@@ -20304,7 +20309,7 @@
 	}
 	s:STATE_BLUE_NILE = {
 		create_state = {
-			country = c:GBR
+			country = c:SUD
 			owned_provinces = {
 				xEF7C3C
 				x51CD3D
@@ -20912,7 +20917,7 @@
 	}
 	s:STATE_EASTERN_CAPE = {
 		create_state = {
-			country = c:GBR
+			country = c:SAF
 			owned_provinces = {
 				x37E0C8
 				x7524D4
@@ -20959,7 +20964,7 @@
 	}
 	s:STATE_CAPE_COLONY = {
 		create_state = {
-			country = c:GBR
+			country = c:SAF
 			owned_provinces = {
 				x0C9F79
 				x3D70BA
@@ -21012,7 +21017,7 @@
 	}
 	s:STATE_NORTHERN_CAPE = {
 		create_state = {
-			country = c:GBR
+			country = c:SAF
 			owned_provinces = {
 				x61E8DD
 				x934389
@@ -24520,7 +24525,7 @@
 	}
 	s:STATE_KAZEMBE = {
 		create_state = {
-			country = c:GBR
+			country = c:ZAM
 			owned_provinces = {
 				xEC5E35
 				xCF3A49
@@ -24600,7 +24605,7 @@
 			}
 		}
 		create_state = {
-			country = c:GBR
+			country = c:ERI
 			owned_provinces = {
 				x1B0B1E
 				x66F6C3
@@ -24632,7 +24637,7 @@
 	}
 	s:STATE_SOMALILAND = {
 		create_state = {
-			country = c:GBR
+			country = c:SOM
 			owned_provinces = {
 				xD191E8
 				x0F9944
@@ -24764,7 +24769,7 @@
 	}
 	s:STATE_NAMAQUALAND = {
 		create_state = {
-			country = c:GBR
+			country = c:SWA
 			owned_provinces = {
 				x8947C8
 				xF0C050
@@ -24838,7 +24843,7 @@
 	}
 	s:STATE_HEREROLAND = {
 		create_state = {
-			country = c:GBR
+			country = c:SWA
 			owned_provinces = {
 				x9E8D05
 				x229650
@@ -24953,7 +24958,7 @@
 	}
 	s:STATE_ZAMBEZI = {
 		create_state = {
-			country = c:GBR
+			country = c:ZIM
 			owned_provinces = {
 				x3B335C
 				x13126A
@@ -25043,7 +25048,7 @@
 	}
 	s:STATE_KENYA = {
 		create_state = {
-			country = c:GBR
+			country = c:KEN
 			owned_provinces = {
 				x6B52F1
 				x5C1ADA
@@ -25121,7 +25126,7 @@
 	}
 	s:STATE_RIFT_VALLEY = {
 		create_state = {
-			country = c:GBR
+			country = c:KEN
 			owned_provinces = {
 				x3E97BF
 				x92CECB
@@ -25443,7 +25448,7 @@
 	}
 	s:STATE_LINDI = {
 		create_state = {
-			country = c:GBR
+			country = c:TAN
 			owned_provinces = {
 				x527F48
 				x9CFE3A
@@ -25533,7 +25538,7 @@
 	}
 	s:STATE_ZANZIBAR = {
 		create_state = {
-			country = c:GBR
+			country = c:TAN
 			owned_provinces = {
 				x941594
 				xF87B77
@@ -25566,7 +25571,7 @@
 	}
 	s:STATE_TANGANYIKA = {
 		create_state = {
-			country = c:GBR
+			country = c:TAN
 			owned_provinces = {
 				x6CFAFE
 				x8EAA8A
@@ -26194,7 +26199,7 @@
 	}
 	s:STATE_HAUSALAND = {
 		create_state = {
-			country = c:GBR
+			country = c:NGA
 			owned_provinces = {
 				xDDE2EB
 				xC06110
@@ -26244,7 +26249,7 @@
 	}
 	s:STATE_BENIN = {
 		create_state = {
-			country = c:GBR
+			country = c:NGA
 			owned_provinces = {
 				x8A898E
 				x6F99BE
@@ -26271,7 +26276,7 @@
 	}
 	s:STATE_YORUBA_STATES = {
 		create_state = {
-			country = c:GBR
+			country = c:NGA
 			owned_provinces = {
 				x08F712
 				x22C180
@@ -26292,7 +26297,7 @@
 	}
 	s:STATE_NIGER_DELTA = {
 		create_state = {
-			country = c:GBR
+			country = c:NGA
 			owned_provinces = {
 				x80A090
 				xD8056B
@@ -26582,7 +26587,7 @@
 	}
 	s:STATE_BORNU = {
 		create_state = {
-			country = c:GBR
+			country = c:NGA
 			owned_provinces = {
 				x3DEBFB
 				xD79AA9
@@ -26613,7 +26618,7 @@
 	}
 	s:STATE_NIGERIA = {
 		create_state = {
-			country = c:GBR
+			country = c:NGA
 			owned_provinces = {
 				xC89CB8
 				x143779
@@ -26663,7 +26668,7 @@
 	}
 	s:STATE_EAST_HAUSALAND = {
 		create_state = {
-			country = c:GBR
+			country = c:NGA
 			owned_provinces = {
 				x827ADE
 				xD01160
@@ -27190,7 +27195,7 @@
 	}
 	s:STATE_UGANDA = {
 		create_state = {
-			country = c:GBR
+			country = c:UGA
 			owned_provinces = {
 				xE0A010
 				x357FAC
@@ -27240,7 +27245,7 @@
 	}
 	s:STATE_EQUATORIA = {
 		create_state = {
-			country = c:GBR
+			country = c:SUD
 			owned_provinces = {
 				x191199
 				x13B0BB
@@ -27861,7 +27866,7 @@
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:GBR
+			country = c:GAM
 			owned_provinces = {
 				x7B561C
 				xB07040
@@ -27900,7 +27905,7 @@
 	}
 	s:STATE_SIERRA_LEONE = {
 		create_state = {
-			country = c:GBR
+			country = c:SIL
 			owned_provinces = {
 				x883E85
 				x884E8D
@@ -27923,7 +27928,7 @@
 	}
 	s:STATE_ZULULAND = {
 		create_state = {
-			country = c:GBR
+			country = c:SAF
 			owned_provinces = {
 				xB6892A
 				xD121F1
@@ -27962,7 +27967,7 @@
 	}
 	s:STATE_VRYSTAAT = {
 		create_state = {
-			country = c:GBR
+			country = c:SAF
 			owned_provinces = {
 				x6253E3
 				x19AE59
@@ -28002,7 +28007,7 @@
 	}
 	s:STATE_TRANSVAAL = {
 		create_state = {
-			country = c:GBR
+			country = c:SAF
 			owned_provinces = {
 				xCBC63D
 				x6C1786

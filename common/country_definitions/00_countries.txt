@@ -1,4 +1,5 @@
 ﻿GER = {
+	#germany
 	color = {
 		147
 		130
@@ -14,6 +15,7 @@
 }
 
 AOG = {
+	#allied-occupied germany
 	color = {
 		121
 		191
@@ -29,6 +31,7 @@ AOG = {
 }
 
 AOA = {
+	#allied-occupied austria
 	color = {
 		252
 		50
@@ -43,6 +46,7 @@ AOA = {
 }
 
 DDR = {
+	#german democratic republic
 	color = {
 		250
 		208
@@ -58,6 +62,7 @@ DDR = {
 }
 
 SOA = {
+	#soviet-occupied austria
 	color = {
 		193
 		0
@@ -72,6 +77,7 @@ SOA = {
 }
 
 GBR = {
+	#united kingdom (great britain)
 	color = {
 		230
 		72
@@ -86,7 +92,270 @@ GBR = {
 	capital = STATE_HOME_COUNTIES
 }
 
+GAM = {
+	#gambia
+	color = {
+		64
+		120
+		28
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		akan
+		bambara
+		fulbe
+		mande
+		wolof
+		british
+		scottish
+	}
+	capital = STATE_GAMBIA
+}
+
+SIL = {
+	#sierra leone
+	color = {
+		0
+		116
+		198
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		akan
+		fulbe
+		kissi
+		mande
+		british
+		scottish
+	}
+	capital = STATE_SIERRA_LEONE
+}
+
+GHA = {
+	#ghana
+	color = {
+		0
+		116
+		198
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		akan
+		ewe
+		mossi
+		british
+		scottish
+	}
+	capital = STATE_GHANA
+}
+
+NGA = {
+	#nigeria
+	color = {
+		1
+		134
+		82
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		igbo
+		yoruba
+		fon
+		fulbe
+		ibo
+		tiv
+		ibilbo
+		equatorial_bantu
+		hausa
+		songhai
+		kanuri
+		british
+		scottish
+	}
+	capital = STATE_NIGERIA
+}
+
+SAF = {
+	#south africa
+	color = {
+		180
+		158
+		127
+	}
+	country_type = colonial
+	tier = kingdom
+	cultures = {
+		british
+		boer
+	}
+	capital = STATE_CAPE_COLONY
+}
+
+SWA = {
+	#south west africa
+	color = {
+		247
+		153
+		27
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		british
+		scottish
+	}
+	capital = STATE_NAMAQUALAND
+}
+
+ZIM = {
+	#zimbabwe || south rhodesia
+	color = {
+		26
+		100
+		0
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		british
+		scottish
+	}
+	capital = STATE_ZAMBEZI
+}
+
+ZAM = {
+	#zambia || northern rhodesia
+	color = {
+		46
+		139
+		0
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		british
+		scottish
+	}
+	capital = STATE_ZAMBIA
+}
+
+TSW = {
+	color = {
+		117
+		170
+		219
+	}
+	country_type = decentralized
+	tier = principality
+	cultures = {
+		tswana
+	}
+	capital = STATE_BOTSWANA
+}
+
+TAN = {
+	#tanganyika
+	color = {
+		62
+		183
+		44
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		british
+		scottish
+	}
+	capital = STATE_TANGANYIKA
+}
+
+UGA = {
+	#uganda
+	color = {
+		209
+		0
+		0
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		british
+		scottish
+	}
+	capital = STATE_UGANDA
+}
+
+KEN = {
+	#kenya
+	color = {
+		180
+		0
+		0
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		british
+		scottish
+	}
+	capital = STATE_KENYA
+}
+
+SOM = {
+	#somalia
+	color = {
+		65
+		138
+		221
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		british
+		scottish
+	}
+	capital = STATE_SOMALIA
+}
+
+ERI = {
+	#eritrea
+	color = {
+		255
+		196
+		35
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		british
+		scottish
+	}
+	capital = STATE_ERITREA
+}
+
+SUD = {
+	# Sudanese
+	color = {
+		189
+		159
+		69
+	}
+	country_type = colonial
+	tier = principality
+	cultures = {
+		sudanese
+		beja
+		bedouin
+	}
+	capital = STATE_BLUE_NILE
+}
+
 SCA = {
+	#scandinavia
 	color = {
 		62
 		122
@@ -104,6 +373,7 @@ SCA = {
 }
 
 RUS = {
+	#soviet union (russia)
 	color = {
 		47
 		91

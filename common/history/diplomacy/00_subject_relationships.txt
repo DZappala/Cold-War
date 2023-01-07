@@ -43,6 +43,66 @@
 			country = c:BIC
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:GAM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SIL
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:GHA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NGA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SAF
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SWA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:TSW
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ZIM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ZAM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:TAN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:UGA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:KEN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SOM
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ERI
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SUD
+			type = puppet
+		}
 	}
 	c:RUS = {
 		create_diplomatic_pact = {

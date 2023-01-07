@@ -1,67 +1,36 @@
 ﻿COUNTRIES = {
 	c:GBR = {
-		set_next_election_date = 1836.2.1
-		
+		set_next_election_date = 1950.2.1
+		set_tax_level = very_high		#postwar income tax rates were at 98%
+		effect_starting_technology_tier_1_tech = yes
+		# Laws 
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_womens_suffrage
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_proportional_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_wage_subsidies
+		activate_law = law_type:law_public_health_insurance		#NHS was introduced in 1948
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		ig:ig_devout = {
+			set_interest_group_name = ig_anglican_church
+		}
 		ig:ig_intelligentsia = {
 			add_ruling_interest_group = yes
 		}
-
 		ig:ig_petty_bourgeoisie = {
 			add_ruling_interest_group = yes
 		}
-		
-		set_tariffs_export_priority = g:grain
-		set_tariffs_import_priority = g:fabric
-		set_tariffs_import_priority = g:wood
-		
-		effect_starting_technology_tier_1_tech = yes
-
-		set_tax_level = medium
-		
-		add_taxed_goods = g:liquor
-	
-		# Laws 
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_wealth_voting
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_women_own_property
-		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_protectionism # Corn Laws, babyyy
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_religious_schools
-		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_poor_laws
-		activate_law = law_type:law_charitable_health_system
-		activate_law = law_type:law_dedicated_police
-		activate_law = law_type:law_professional_army
-		
-		set_institution_investment_level = {
-			institution = institution_colonial_affairs
-			level = 2
+		ig:ig_trade_unions = {
+			add_ruling_interest_group = yes
 		}
-		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 3
-		}
-
-		set_institution_investment_level = {
-			institution = institution_police
-			level = 2
-		}
-	
-		ig:ig_landowners = { 
-			set_interest_group_name = ig_landed_gentry
-		}
-		
-		ig:ig_devout = { 
-			set_interest_group_name = ig_anglican_church
-		}
-
-		add_journal_entry = { type = je_victoria }
 	}
 }
