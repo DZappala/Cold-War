@@ -20,6 +20,12 @@
 			set_interest_group_name = ig_haloe
 			add_ruling_interest_group = yes
 			add_ideology = ideology_republican_paternalistic
+			add_ideology = ideology_stratocratic
+		}
+		ig:ig_armed_forces = {
+			set_interest_group_name = ig_hawaiian_national_guard
+			add_ruling_interest_group = yes
+			add_ideology = ideology_jingoist
 		}
 		ig:ig_rural_folk = {
 			set_interest_group_name = ig_maka_ainana

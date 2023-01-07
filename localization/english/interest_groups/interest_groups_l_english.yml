@@ -150,5 +150,10 @@
   ig_maka_ainana_desc: 0 "The Maka'āinana represent Hawai'i's rural class, often working in plantations and fisheries. They advocate for traditional values and for Hawai'i's continued economic dependency on the agricultural sector."
   ig_hawaiian_democrats: 0 "Democrats"
   ig_hawaiian_democrats_desc: 0 "The Democrats represent Hawai'i's liberal reformers. They advocate for statehood and the democratic regime."
+  ig_hawaiian_national_guard: 0 "Hawaiian National Guard"
+  ig_hawaiian_national_guard_desc:
+    0 "The Hawaiian National Guard represents Hawai'i's military. They advocate for the continued military presence of the United States in Hawai'i."
+
+    # Swedish IGs
 
   ig_church_of_sweden: 0 "Church of Sweden"
