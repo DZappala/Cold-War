@@ -1,4 +1,4 @@
-﻿DIPLOMACY = {
+DIPLOMACY = {
 	c:USA = {
 		create_diplomatic_pact = {
 			country = c:AOG
@@ -50,6 +50,10 @@
 		}
 		create_diplomatic_pact = {
 			country = c:HUN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MGL
 			type = puppet
 		}
 	}
