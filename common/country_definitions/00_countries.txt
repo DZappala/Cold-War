@@ -28,6 +28,35 @@ AOG = {
 	capital = STATE_HESSE
 }
 
+DDR = {
+	color = {
+		250
+		208
+		0
+	}
+	country_type = recognized
+	tier = principality
+	cultures = {
+		north_german
+		south_german
+	}
+	capital = STATE_BRANDENBURG
+}
+
+SOA = {
+	color = {
+		193
+		0
+		39
+	}
+	country_type = recognized
+	tier = principality
+	cultures = {
+		south_german
+	}
+	capital = STATE_AUSTRIA
+}
+
 GBR = {
 	color = {
 		230

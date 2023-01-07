@@ -1,3 +1,56 @@
-﻿DIPLOMACY = {		
-
+﻿DIPLOMACY = {
+	c:USA = {
+		create_diplomatic_pact = {
+			country = c:AOG
+			type = puppet
+		}
+	}
+	#Treaty of Alliance and Mutual Assistance (beginning of NATO event chain)
+	#Event will trigger (MTTH 2 years of game start) to add the Benelux nations (Treaty of Brussels)
+	#Event will trigger (MTTH 2 years after previous event) to add the USA, Canada, Portugal, Italy, Norway, Denmark, and Iceland (North Atlantic Treaty)
+	#Spain will get invited after they become democratic (MTTH 2 years after this happens)
+	c:GBR = {
+		create_diplomatic_pact = {
+			country = c:FRA
+			type = alliance
+		}
+	}
+	c:RUS = {
+		create_diplomatic_pact = {
+			country = c:DDR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SOA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:CZH
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:POL
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ROM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:YUG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ALB
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BUL
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = puppet
+		}
+	}
 }

@@ -632,7 +632,7 @@
 	}
 	s:STATE_POMERANIA = {
 		create_state = {
-			country = c:RUS
+			country = c:DDR
 			owned_provinces = {
 				xA04121
 				xE1A03A
@@ -45363,7 +45363,7 @@
 	}
 	s:STATE_TRANSDANUBIA = {
 		create_state = {
-			country = c:RUS
+			country = c:SOA
 			owned_provinces = {
 				x30A020
 			}
@@ -45546,7 +45546,7 @@
 	}
 	s:STATE_AUSTRIA = {
 		create_state = {
-			country = c:RUS
+			country = c:SOA
 			owned_provinces = {
 				xFDA6CB
 				x9001A0
@@ -45645,7 +45645,7 @@
 	}
 	s:STATE_ANHALT = {
 		create_state = {
-			country = c:RUS
+			country = c:DDR
 			owned_provinces = {
 				x3C9B93
 				xA51232
@@ -45781,7 +45781,7 @@
 			}
 		}
 		create_state = {
-			country = c:RUS
+			country = c:DDR
 			owned_provinces = {
 				x60BF20
 				xDF4020
@@ -45910,7 +45910,7 @@
 	}
 	s:STATE_SAXONY = {
 		create_state = {
-			country = c:RUS
+			country = c:DDR
 			owned_provinces = {
 				xC00A37
 				x31E0C0
@@ -46279,7 +46279,7 @@
 	}
 	s:STATE_MECKLENBURG = {
 		create_state = {
-			country = c:RUS
+			country = c:DDR
 			owned_provinces = {
 				x24CA48
 				x12E54F
