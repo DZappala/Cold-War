@@ -1,7 +1,32 @@
 DIPLOMACY = {
 	c:USA = {
+		#Only one nation can own a puppet, so rathern than dividing them into several nations, Allied Germany and Austira are simply US puppets. #TODO: test balancd
 		create_diplomatic_pact = {
 			country = c:AOG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:AOA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HAW
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:AKA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PCO
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:GUM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SPM
 			type = puppet
 		}
 	}
