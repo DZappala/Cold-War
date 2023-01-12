@@ -127,7 +127,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:YUG
-			type = puppet
+			type = protectorate			# Tito-Stalin is after the game starts, so Yugoslavia is a protectorate. There will be an event chain where either they will be a puppet or independent.
 		}
 		create_diplomatic_pact = {
 			country = c:ALB
