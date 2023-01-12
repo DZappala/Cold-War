@@ -31,9 +31,9 @@
 		}
 	}
 	#Treaty of Alliance and Mutual Assistance (beginning of NATO event chain)
-	#Event will trigger (MTTH 2 years of game start) to add the Benelux nations (Treaty of Brussels)
-	#Event will trigger (MTTH 2 years after previous event) to add the USA, Canada, Portugal, Italy, Norway, Denmark, and Iceland (North Atlantic Treaty)
-	#Spain will get invited after they become democratic (MTTH 2 years after this happens)
+	#TODO: Event will trigger (MTTH 2 years of game start) to add the Benelux nations (Treaty of Brussels)
+	#TODO: Event will trigger (MTTH 2 years after previous event) to add the USA, Canada, Portugal, Italy, Norway, Denmark, and Iceland (North Atlantic Treaty)
+	#TODO: Spain will get invited after they become democratic (MTTH 2 years after this happens)
 	c:GBR = {
 		create_diplomatic_pact = {
 			country = c:FRA
@@ -127,7 +127,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:YUG
-			type = protectorate			# Tito-Stalin is after the game starts, so Yugoslavia is a protectorate. There will be an event chain where either they will be a puppet or independent.
+			type = protectorate			#TODO Tito-Stalin is after the game starts, so Yugoslavia is a protectorate. There will be an event chain where either they will be a puppet or independent.
 		}
 		create_diplomatic_pact = {
 			country = c:ALB
