@@ -33,13 +33,13 @@ textformatting = {
 	### GREY
 	format = {
 		name = grey
-		format = "color:{0.6, 0.57, 0.55}"
+		format = "color:{0.5, 0.5, 0.5}"
 	}
 	
 	### RED
 	format = {
 		name = red
-		format = "color:{0.88,0.34,0.34}" #brighter
+		format = "color:{0.6,0.01,0.37}" #brighter
 		#format = "color:{0.69,0.28,0.28}" #slightly weaker
 		#format = "color:{0.71,0.24,0.24}"
 	}
@@ -48,7 +48,7 @@ textformatting = {
 	format = {
 		name = green
 		#format = "color:{0.36,0.62,0.36}" #very weak
-		format = "color:{0.39,0.67,0.33}" #slightly weaker
+		format = "color:{0.07,0.79,0.03}" #slightly weaker
 		#format = "color:{0.26,0.68,0.26}"
 	}
 	format = {
@@ -59,7 +59,7 @@ textformatting = {
 	### YELLOW
 	format = {
 		name = yellow
-		format = "color:{ 1, 0.97, 0.66}"
+		format = "color:{ .87, 0.83, .07}"
 		#format = "color:{ 0.81, 0.76, 0.52}"
 		#format = "color:{ 0.87, 0.76, 0.53}"
 	}
@@ -67,7 +67,7 @@ textformatting = {
 	### BLUE
 	format = {
 		name = blue
-		format = "shadow;color:{ 0.41, 0.67, 0.74 }"
+		format = "shadow;color:{ 0.14, 0.59, 100 }"
 	}
 
 	### U
@@ -80,7 +80,7 @@ textformatting = {
 	format = {
 		name = gold
 		#format = "color:{ 0.77, 0.6, 0.43 }" #subtle
-		format = "shadow;color:{ 1, 0.674, 0.454 }" #medium / brighter
+		format = "shadow;color:{ .94, 0.36, 0 }" #medium / brighter
 		#format = "color:{ 0.98, 0.61, 0.26 }" #stronger
 	}
 
@@ -94,8 +94,8 @@ textformatting = {
 	format = {
 		name = black
 		#format = "color:{ 0.9, 0.9, 0.9,  0.50}" #subtle
-		format = "color:{ 0, 0, 0, 0.60 }" #medium / brighter
-		#format = "color:{ 0, 0, 0, 0}" #stronger
+		#format = "color:{ 0, 0, 0, 0.60 }" #medium / brighter
+		format = "color:{ 0, 0, 0, 0}" #stronger
 	}
 	#############	
 	### USAGE ###
@@ -104,7 +104,7 @@ textformatting = {
 	### DEFAULT TEXT
 	format = {
 		name = default_text
-		format = "darker_white;shadow"
+		format = "white;shadow"
 	}
 	
 	### VARIABLE
@@ -130,13 +130,13 @@ textformatting = {
 	### TITLE
 	format = {
 		name = title
-		format = "grey;shadow"
+		format = "white;shadow"
 	}
 	
 	### CLICKABLE #needed for frontend stuff copied from ck3, but we don't have clickable text in V3
 	format = {
 		name = clickable
-		format = "darker_white;shadow"
+		format = "white;shadow"
 	}
 	
 	### POSITIVE (good) / ZERO (also neutral) / NEGATIVE (bad)
@@ -185,7 +185,7 @@ textformatting = {
 	### CONCEPT
 	format = {
 		name = concept #is this even used anywhere?
-		format = "darker_white;shadow"
+		format = "white;shadow"
 	}
 	format = {
 		name = tooltippable_concept
@@ -206,7 +206,7 @@ textformatting = {
 	### LORE / FLAVOR
 	format = {
 		name = lore
-		format = "grey;shadow"
+		format = "white;shadow"
 	}
 
 	### TOOLTIP
@@ -222,7 +222,7 @@ textformatting = {
 	
 	format = {
 		name = tooltip_sub_header
-		format = "darker_white;shadow"
+		format = "white;shadow"
 	}
 
 	format = {
@@ -238,7 +238,7 @@ textformatting = {
 
 	format = {
 		name = tooltippable_name
-		format = "yellow;shadow"
+		format = "blue;shadow"
 	}
 	
 	### BOLD
