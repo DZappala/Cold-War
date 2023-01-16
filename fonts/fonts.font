@@ -833,6 +833,58 @@ fontfiles = {
 	}
 }
 
+fontfiles = {
+	name = "SpaceGrotesk-Regular"
+	always_load = yes
+	group = {
+		languages = {
+			"l_english"
+		}
+		files = {
+			"fonts/SpaceGrotesk/SpaceGrotesk-Regular.otf"
+		}
+	}
+}
+
+fontfiles = {
+	name = "SpaceGrotesk-Bold"
+	always_load = yes
+	group = {
+		languages = {
+			"l_english"
+		}
+		files = {
+			"fonts/SpaceGrotesk/SpaceGrotesk-Bold.otf"
+		}
+	}
+}
+
+fontfiles = {
+	name = "SpaceGrotesk-Medium"
+	always_load = yes
+	group = {
+		languages = {
+			"l_english"
+		}
+		files = {
+			"fonts/SpaceGrotesk/SpaceGrotesk-Medium.otf"
+		}
+	}
+}
+
+fontfiles = {
+	name = "SpaceGrotesk-Light"
+	always_load = yes
+	group = {
+		languages = {
+			"l_english"
+		}
+		files = {
+			"fonts/SpaceGrotesk/SpaceGrotesk-Light.otf"
+		}
+	}
+}
+
 #######################################################################
 #######################################################################
 #######################################################################
@@ -842,11 +894,11 @@ font = {
 	name = "Fancy"
 	fontstyle = {
 		style = regular
-		fontfiles = "Monoid-Regular"
+		fontfiles = "SpaceGrotesk-Regular"
 	}
 	fontstyle = {
 		style = bold
-		fontfiles = "Monoid-Bold"
+		fontfiles = "SpaceGrotesk-Bold"
 	}
 }
 
@@ -854,7 +906,7 @@ font = {
 	name = "Debug"
 	fontstyle = {
 		style = regular
-		fontfiles = "Monoid-Regular"
+		fontfiles = "SpaceGrotesk-Regular"
 	}
 }
 
@@ -862,23 +914,7 @@ font = {
 	name = "standard_font"
 	fontstyle = {
 		style = regular
-		fontfiles = "Monoid-Regular"
-	}
-}
-
-font = {
-	name = "Monoid"
-	fontstyle = {
-		style = regular
-		fontfiles = "Monoid-Regular"
-	}
-	fontstyle = {
-		style = bold
-		fontfiles = "Monoid-Bold"
-	}
-	fontstyle = {
-		style = italic
-		fontfiles = "Monoid-Italic"
+		fontfiles = "SpaceGrotesk-Regular"
 	}
 }
 
@@ -886,19 +922,19 @@ font = {
 	name = "OpenSans"
 	fontstyle = {
 		style = regular
-		fontfiles = "Monoid-Regular"
+		fontfiles = "SpaceGrotesk-Regular"
 	}
 	fontstyle = {
 		style = bold
-		fontfiles = "Monoid-Bold"
+		fontfiles = "SpaceGrotesk-Bold"
 	}
 	fontstyle = {
 		style = italic
-		fontfiles = "Monoid-Italic"
+		fontfiles = "SpaceGrotesk-Light"
 	}
 	fontstyle = {
 		style = bold|italic
-		fontfiles = "Monoid-Italic"
+		fontfiles = "SpaceGrotesk-Light"
 	}
 }
 
@@ -906,15 +942,15 @@ font = {
 	name = "PlayfairDisplay"
 	fontstyle = {
 		style = regular
-		fontfiles = "Monoid-Regular"
+		fontfiles = "SpaceGrotesk-Regular"
 	}
 	fontstyle = {
 		style = bold
-		fontfiles = "Monoid-Bold"
+		fontfiles = "SpaceGrotesk-Bold"
 	}
 	fontstyle = {
 		style = italic
-		fontfiles = "Monoid-Italic"
+		fontfiles = "SpaceGrotesk-Light"
 	}
 }
 
@@ -922,14 +958,14 @@ font = {
 	name = "EBGaramond"
 	fontstyle = {
 		style = regular
-		fontfiles = "Monoid-Regular"
+		fontfiles = "SpaceGrotesk-Regular"
 	}
 	fontstyle = {
 		style = bold
-		fontfiles = "Monoid-Bold"
+		fontfiles = "SpaceGrotesk-Bold"
 	}
 	fontstyle = {
 		style = italic
-		fontfiles = "Monoid-Italic"
+		fontfiles = "SpaceGrotesk-Light"
 	}
 }
