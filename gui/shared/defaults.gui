@@ -1,56 +1,56 @@
 template regular_font
 {
 	font = "EBGaramond"
-	fontsize = 13
+	fontsize = 15
 }
 
 template tooltip_font
 {
 	font = "OpenSans"
-	fontsize = 11
+	fontsize = 15
 }
 
 template fontsize_large
 {
-	fontsize = 16
+	fontsize = 20
 }
 
 template fontsize_xl
 {
-	fontsize = 18
+	fontsize = 22
 }
 
 template fontsize_xxl
 {
-	fontsize = 22
+	fontsize = 26
 }
 
 template fontsize_mega
 {
-	fontsize = 26
+	fontsize = 30
 }
 
 template fontsize_medium
 {
-	fontsize = 12
+	fontsize = 16
 	using = tooltip_font
 }
 
 template fontsize_small
 {
-	fontsize = 10
+	fontsize = 14
 	using = tooltip_font
 }
 
 template fontsize_xsmall
 {
-	fontsize = 8
+	fontsize = 12
 	using = tooltip_font
 }
 
 template text_icon_scale
 {
-	fontsize = 12
+	fontsize = 16
 }
 
 template header_font
@@ -60,7 +60,7 @@ template header_font
 
 template header_font_size
 {
-	fontsize = 22
+	fontsize = 26
 }
 
 template header_font_fancy
@@ -70,7 +70,7 @@ template header_font_fancy
 
 template header_font_fancy_size
 {
-	fontsize = 42
+	fontsize = 46
 }
 
 template clickthrough_blocker
