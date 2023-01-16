@@ -103,6 +103,10 @@
 			country = c:SUD
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:TRI
+			type = protectorate
+		}
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
@@ -143,6 +147,47 @@
 		}
 		create_diplomatic_pact = {
 			country = c:MGL
+			type = puppet
+		}
+	}
+	c:BEL = {
+		create_diplomatic_pact = {
+			country = c:NET
+			type = alliance
+		}
+		create_diplomatic_pact = {
+			country = c:LUX
+			type = alliance
+		}
+		create_diplomatic_pact = {
+			country = c:KON
+			type = puppet
+		}
+	}
+	c:FRA = {
+		create_diplomatic_pact = {
+			country = c:FEZ
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ALD
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:TUN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MOR
+			type = puppet
+		}
+		#TODO: West African Federation breaks appart
+		create_diplomatic_pact = {
+			country = c:SEN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MAD
 			type = puppet
 		}
 	}

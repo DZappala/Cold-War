@@ -469,6 +469,24 @@ BEL = {
 	}
 }
 
+KON = {
+	dynamic_country_name = {
+		name = dyn_c_belgian_congo
+		adjective = dyn_c_belgian_congo_adj
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			coa_def_independent_trigger = no
+			AND = {
+				exists = c:BEL
+				scope:actor = {
+					is_subject_of = c:BEL
+				}
+			}
+		}
+	}
+}
+
 BIC = {
 	# British East India Company
 	dynamic_country_name = {
@@ -1737,6 +1755,83 @@ TSW = {
 	}
 }
 
+TRI = {
+	# Tripolitania
+	dynamic_country_name = {
+		name = dyn_c_libya
+		adjective = dyn_c_libya_adj
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			coa_def_independent_trigger = yes
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_british_libya
+		adjective = dyn_c_british_libya_adj
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			scope:actor = {
+				is_subject_of = c:GBR
+			}
+		}
+	}
+}
+
+FEZ = {
+	# Fezzan
+	dynamic_country_name = {
+		name = dyn_c_british_fezzan
+		adjective = dyn_c_british_fezzan_adj
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			scope:actor = {
+				is_subject_of = c:GBR
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_french_fezzan
+		adjective = dyn_c_french_fezzan_adj
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			scope:actor = {
+				is_subject_of = c:FRA
+			}
+		}
+	}
+}
+
+SEN = {
+	#senegal, French West Africa
+	dynamic_country_name = {
+		name = dyn_c_french_west_africa
+		adjective = dyn_c_french_west_africa_adj
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			scope:actor = {
+				is_subject_of = c:FRA
+				owns_entire_state_region = STATE_SENEGAL
+				owns_entire_state_region = STATE_IVORY_COAST
+				owns_entire_state_region = STATE_DAHOMEY
+				owns_entire_state_region = STATE_SOUTH_CAMEROON
+				owns_entire_state_region = STATE_NORTH_CAMEROON
+				owns_entire_state_region = STATE_CHAD
+				owns_entire_state_region = STATE_NIGER
+				owns_entire_state_region = STATE_VOLTA
+				capital = {
+					state_region = s:STATE_SENEGAL
+				}
+			}
+		}
+	}
+}
+
 TUN = {
 	# Tunis
 	dynamic_country_name = {
@@ -1893,7 +1988,7 @@ SUD = {
 		name = dyn_c_funj_state
 		adjective = dyn_c_funj_state_adj
 		is_main_tag_only = yes
-		priority = 0
+		priority = 1
 		trigger = {
 			scope:actor = {
 				has_law = law_type:law_monarchy
@@ -1908,8 +2003,9 @@ SUD = {
 		is_main_tag_only = yes
 		priority = 0
 		trigger = {
-			coa_def_british_ensign_trigger = yes
-			coa_def_independent_trigger = yes
+			scope:actor = {
+				is_subject_of = c:GBR
+			}
 		}
 	}
 }

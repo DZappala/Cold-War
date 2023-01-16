@@ -249,8 +249,6 @@ STATE_EGYPTIAN_DESERT = {
 		"xFA5382"
 		"xFA85DD"
 		"xFF4484"
-	}
-	impassable = {
 		"xFA5382"
 		"x54D103"
 		"x03534F"
@@ -622,8 +620,6 @@ STATE_DONGOLA = {
 		"xFF4AEC"
 		"xFF4E48"
 		"xFFC1F5"
-	}
-	impassable = {
 		"xB1A5A5"
 		"x660662"
 		"x8C56D8"
@@ -773,8 +769,6 @@ STATE_KORDOFAN = {
 		"xF762CD"
 		"xFCDD6C"
 		"xFCE1F9"
-	}
-	impassable = {
 		"x40DB33"
 		"xF762CD"
 		"xCAA22A"
@@ -913,8 +907,6 @@ STATE_DARFUR = {
 		"xF0883A"
 		"xF1FBFF"
 		"xF43EA4"
-	}
-	impassable = {
 		"x72ACD5"
 		"x489122"
 		"x646AA7"
@@ -1227,8 +1219,6 @@ STATE_INNER_MOROCCO = {
 		"xE92045"
 		"xF414B2"
 		"xFAE302"
-	}
-	impassable = {
 		"x9E582E"
 		"x53C5EF"
 		"x8ACEDE"
@@ -1613,8 +1603,6 @@ STATE_TRIPOLI = {
 		"xFD5B11"
 		"xFF8008"
 		"xFFED82"
-	}
-	impassable = {
 		"x0190E0"
 		"x5F28EB"
 		"x8C63E2"
@@ -1956,8 +1944,6 @@ STATE_LIBYAN_DESERT = {
 		"xFA3335"
 		"xFA4247"
 		"xFAB14C"
-	}
-	impassable = {
 		"xB10316"
 		"x53ECCE"
 		"x6F8DE9"
@@ -2233,8 +2219,6 @@ STATE_SAHARA = {
 		"xFE3526"
 		"xFEBBD3"
 		"xFFC5B4"
-	}
-	impassable = {
 		"x28D510"
 		"x5DBB0F"
 		"xB86099"
@@ -2591,8 +2575,6 @@ STATE_EAST_SAHARA = {
 		"xFA8E8D"
 		"xFC03CD"
 		"xFF55DD"
-	}
-	impassable = {
 		"xB4BF69"
 		"x7000EE"
 		"xF07118"
@@ -2732,8 +2714,6 @@ STATE_WEST_SAHARA = {
 		"xF4A5AA"
 		"xF4BBF1"
 		"xFCD455"
-	}
-	impassable = {
 		"x4D7B2F"
 		"xEB7C20"
 		"xA0EF00"
@@ -3005,8 +2985,6 @@ STATE_INNER_MAURITANIA = {
 		"xFC3163"
 		"xFE6ABD"
 		"xFE8CB7"
-	}
-	impassable = {
 		"xF7237C"
 		"xB53884"
 		"x4810FC"
@@ -3376,8 +3354,6 @@ STATE_TIMBUKTU = {
 		"xFD0BF5"
 		"xFDD16E"
 		"xFEBD07"
-	}
-	impassable = {
 		"xFDD16E"
 		"x13014C"
 		"x25B438"
@@ -3577,8 +3553,6 @@ STATE_NIGER = {
 		"xFDDBEB"
 		"xFDEF26"
 		"xFED6E1"
-	}
-	impassable = {
 		"x949040"
 		"xFED6E1"
 		"x0CDADF"
