@@ -1816,17 +1816,6 @@ SEN = {
 		trigger = {
 			scope:actor = {
 				is_subject_of = c:FRA
-				owns_entire_state_region = STATE_SENEGAL
-				owns_entire_state_region = STATE_IVORY_COAST
-				owns_entire_state_region = STATE_DAHOMEY
-				owns_entire_state_region = STATE_SOUTH_CAMEROON
-				owns_entire_state_region = STATE_NORTH_CAMEROON
-				owns_entire_state_region = STATE_CHAD
-				owns_entire_state_region = STATE_NIGER
-				owns_entire_state_region = STATE_VOLTA
-				capital = {
-					state_region = s:STATE_SENEGAL
-				}
 			}
 		}
 	}
