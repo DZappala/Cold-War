@@ -702,3 +702,513 @@ battlefleet_tactics = {
 		sea_lane_strategies
 	}
 }
+
+bombers = {
+	# Unlocks Bombers PM in Barracks
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/bombers.dds"
+	category = military
+	unlocking_technologies = {
+		military_aviation
+	}
+}
+
+### ERA 6
+capital_ships = {
+	# Unlocks Capital Ships PM in Naval Bases
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/capital_ships.dds"
+	category = military
+	unlocking_technologies = {
+		battleship_tech
+		carrier_tech
+	}
+}
+
+fighters = {
+	# Unlocks Fighters PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/fighters.dds"
+	category = military
+	unlocking_technologies = {
+		military_aviation
+		carrier_tech
+	}
+}
+
+close_air_support = {
+	# Unlocks Close Air Support PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/close_air_support.dds"
+	category = military
+	unlocking_technologies = {
+		military_aviation
+		mobile_armor
+	}
+}
+
+tactical_bombers = {
+	# Unlocks Tactical Bombers PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/tactical_bombers.dds"
+	category = military
+	unlocking_technologies = {
+		bombers
+	}
+}
+
+strategic_bombers = {
+	# Unlocks Strategic Bombers PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/strategic_bombers.dds"
+	category = military
+	unlocking_technologies = {
+		bombers
+	}
+}
+
+assault_rifles = {
+	# Unlocks Assault Rifles PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/assault_rifles.dds"
+	category = military
+	unlocking_technologies = {
+		stormtroopers
+		automatic_machine_guns
+	}
+}
+
+aerial_torpedoes = {
+	# Unlocks Aerial Torpedoes PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/aerial_torpedoes.dds"
+	category = military
+	unlocking_technologies = {
+		strategic_bombers
+		carrier_tech
+	}
+}
+
+interceptors = {
+	# Unlocks Interceptors PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/interceptors.dds"
+	category = military
+	unlocking_technologies = {
+		close_air_support
+	}
+}
+
+air_superiority = {
+	# Unlocks Air Superiority PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/air_superiority.dds"
+	category = military
+	unlocking_technologies = {
+		close_air_support
+		fighters
+	}
+}
+
+formation_flying = {
+	# Unlocks Formation Flying PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/formation_flying.dds"
+	category = military
+	unlocking_technologies = {
+		fighters
+		military_aviation
+	}
+}
+
+radar = {
+	# Unlocks Radar PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/radar.dds"
+	category = military
+	unlocking_technologies = {
+		strategic_bombers
+	}
+}
+
+atomic_bombs = {
+	# Unlocks Atomic Bombs PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/atomic_bombs.dds"
+	category = military
+	unlocking_technologies = {
+		strategic_bombers
+	}
+}
+
+rocketry = {
+	# Unlocks Rocketry PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/rocketry.dds"
+	category = military
+	unlocking_technologies = {
+		tactical_bombers
+		interceptors
+	}
+}
+
+anti-aircraft_weaponry = {
+	# Unlocks Anti-Aircraft Weaponry PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/anti-aircraft_weaponry.dds"
+	category = military
+	unlocking_technologies = {
+		air_superiority
+	}
+}
+
+rocket_powered_aircraft = {
+	# Unlocks Rocket Powered Aircraft PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/rocket_powered_aircraft.dds"
+	category = military
+	unlocking_technologies = {
+		rocketry
+	}
+}
+
+selective_fire = {
+	# Unlocks Selective Fire PM in Barracks
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/selective_fire.dds"
+	category = military
+	unlocking_technologies = {
+		assault_rifles
+	}
+}
+
+### ERA 7
+intermodal_containers = {
+	# Unlocks Intermodal Containers PM in Ports
+	# Increases Max Port Level by 4
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/intermodal_containers.dds"
+	category = military
+	modifier = {
+		state_building_port_max_level_add = 4
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+}
+
+oceanography = {
+	# Unlocks Oceanography PM in Ports
+	# Increases Max Port Level by 4
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/oceanography.dds"
+	category = military
+	modifier = {
+		state_building_port_max_level_add = 4
+	}
+	unlocking_technologies = {
+		concrete_dockyards
+		radar
+	}
+}
+
+radar_equipped_aircraft = {
+	# Unlocks Radar Equipped Aircraft PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/radar_equiped_aircraft.dds"
+	category = military
+	unlocking_technologies = {
+		radar
+		interceptors
+	}
+}
+
+swept-wing_aircraft = {
+	# Unlocks Swept-Wing Aircraft PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/swept-wing_aircraft.dds"
+	category = military
+	unlocking_technologies = {
+		fighters
+		formation_flying
+	}
+}
+
+helicopters = {
+	# Unlocks Helicopters PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/helicopters.dds"
+	category = military
+	unlocking_technologies = {
+		interceptors
+	}
+}
+
+thermonuclear_devices = {
+	# Unlocks Thermonuclear Devices PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/thermonuclear_devices.dds"
+	category = military
+	unlocking_technologies = {
+		atomic_bombs
+	}
+}
+
+long-range_ballistic_missiles = {
+	# Unlocks Long-Range Ballistic Missiles PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/long-range_ballistic_missiles.dds"
+	category = military
+	unlocking_technologies = {
+		rocketry
+	}
+}
+
+meteorological_sciences = {
+	# Unlocks Meteorological Sciences PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/meteorological_sciences.dds"
+	category = military
+	unlocking_technologies = {
+		radar
+	}
+}
+
+battle_rifles = {
+	# Unlocks Battle rifles PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/battle_riffs.dds"
+	category = military
+	unlocking_technologies = {
+		selective_fire
+	}
+}
+
+cartridge_standardization = {
+	# Unlocks Cartridge Standardization PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/cartridge_standardization.dds"
+	category = military
+	unlocking_technologies = {
+		assault_rifles
+	}
+}
+
+nuclear_submarines = {
+	# Unlocks Nuclear Submarines PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/nuclear_submarines.dds"
+	category = military
+	unlocking_technologies = {
+		submarine
+		oceanography
+	}
+}
+
+supersonic_aircraft = {
+	# Unlocks Supersonic Aircraft PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/supersonic_aircraft.dds"
+	category = military
+	unlocking_technologies = {
+		swept-wing_aircraft
+		fighters
+	}
+}
+
+ballistic_computer = {
+	# Unlocks Ballistic Computer PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/ballistic_computer.dds"
+	category = military
+	unlocking_technologies = {
+		meteorological_sciences
+	}
+}
+
+man-portable_anti-tank_systems = {
+	# Unlocks man-portable anti-tank systems PM in Barracks
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/man-portable_anti-tank_systems.dds"
+	category = military
+	unlocking_technologies = {
+		battle_rifles
+	}
+}
+
+### ERA 8
+combined_arms = {
+	# Unlocks Combined Arms PM in Barracks
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/combined_arms.dds"
+	category = military
+	unlocking_technologies = {
+		man-portable_anti-tank_systems
+		supersonic_aircraft
+		helicopters
+	}
+}
+
+intercontinental_ballistic_missiles = {
+	# Unlocks Intercontinental Ballistic Missiles PM in Barracks
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/intercontinental_ballistic_missiles.dds"
+	category = military
+	unlocking_technologies = {
+		long-range_ballistic_missiles
+		ballistic_computer
+		thermonuclear_devices
+	}
+}
+
+unmanned_satellites = {
+	# Unlocks Unmanned Satellites PM in Barracks
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/unmanned_satellites.dds"
+	category = military
+	unlocking_technologies = {
+		rocketry
+	}
+}
+
+asymmetric_warfare = {
+	# Unlocks Asymmetric Warfare PM in Barracks
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/asymmetric_warfare.dds"
+	category = military
+	unlocking_technologies = {
+		atomic_bombs
+		battle_rifles
+	}
+}
+
+kevlar = {
+	# Unlocks Kevlar PM in Barracks
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/kevlar.dds"
+	category = military
+	unlocking_technologies = {
+		battle_rifles
+		mobile_armor
+	}
+}
+
+surface-to-air_missiles = {
+	# Unlocks Surface-to-Air Missiles PM in Barracks
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/surface-to-air_missiles.dds"
+	category = military
+	unlocking_technologies = {
+		intercontinental_ballistic_missiles
+	}
+}
+
+mutual_assured_destruction = {
+	# Unlocks Mutual Assured Destruction PM in Barracks
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/mutual_assured_destruction.dds"
+	category = military
+	unlocking_technologies = {
+		intercontinental_ballistic_missiles
+	}
+}
+
+guerilla_warfare = {
+	# Unlocks Guerilla Warfare PM in Barracks
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/guerilla_warfare.dds"
+	category = military
+	unlocking_technologies = {
+		asymmetric_warfare
+		kevlar
+	}
+}
+
+### ERA 9
+flexible_reaction = {
+	# Unlocks Flexible Reaction PM in Barracks
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/flexible_reaction.dds"
+	category = military
+	unlocking_technologies = {
+		mutual_assured_destruction
+		combined_arms
+	}
+}
+
+arms_control = {
+	# Unlocks Arms Control PM in Barracks
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/arms_control.dds"
+	category = military
+	unlocking_technologies = {
+		mutual_assured_destruction
+	}
+}
+
+manned_satellites = {
+	# Unlocks Manned Satellites PM in Barracks
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/manned_satellites.dds"
+	category = military
+	unlocking_technologies = {
+		unmanned_satellites
+	}
+}
+
+electro-optical_sights = {
+	# Unlocks Electro-Optical Sights PM in Barracks
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/electro-optical_sights.dds"
+	category = military
+	unlocking_technologies = {
+		battle_rifles
+	}
+}
+
+improved_conventional_munitions = {
+	# Unlocks Improved Conventional Munitions PM in Barracks
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/improved_conventional_munitions.dds"
+	category = military
+	unlocking_technologies = {
+		combined_arms
+		cartridge_standardization
+	}
+}
+
+light_air-defence_guns = {
+	# Unlocks Light Air-Defence Guns PM in Barracks
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/light_air-defence_guns.dds"
+	category = military
+	unlocking_technologies = {
+		electro-optical_sights
+		supersonic_aircraft
+	}
+}
+
+guided_missiles = {
+	# Unlocks Guided Missiles PM in Barracks
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/guided_missiles.dds"
+	category = military
+	unlocking_technologies = {
+		improved_conventional_munitions
+	}
+}
+
+### ERA 10
+personal_defense_weapons = {
+	# Unlocks Personal Defense Weapons PM in Barracks
+	era = era_10
+	texture = "gfx/interface/icons/invention_icons/personal_defense_weapons.dds"
+	category = military
+	unlocking_technologies = {
+		kevlar
+		electro-optical_sights
+	}
+}
+
+### ERA 11
+### ERA 12

@@ -432,6 +432,7 @@ human_rights = {
 }
 
 feminism = {
+	#TODO: Waves of feminism (Rename to 1st wave)
 	# Unlocks Women in the Workplace - Rights of Women Law
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/feminism.dds"
@@ -817,3 +818,15 @@ paved_roads = {
 		elevator
 	}
 }
+
+### ERA 6
+### ERA 7
+### ERA 8
+### ERA 9
+### ERA 10
+### ERA 11
+### ERA 12
+### ERA 13
+### ERA 14
+### ERA 15
+### ERA 16
